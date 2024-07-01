@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0018-4sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0018-4sum) |
+| [1975-minimum-distance-to-the-target-element](https://github.com/mumukshapant/leetcode-practise/tree/master/1975-minimum-distance-to-the-target-element) |
 ## Two Pointers
 |  |
 | ------- |
