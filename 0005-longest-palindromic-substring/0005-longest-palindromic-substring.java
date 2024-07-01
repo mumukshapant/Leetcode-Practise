@@ -24,7 +24,7 @@ class Solution {
 
 
     //length =3; 2 loops
-    for(int k =3; k<=n;k++){
+    for(int k =2; k<=n;k++){
       for(int i= 0;i<n-k+1;i++ ){
         int j= i+k-1;
 
@@ -45,6 +45,5 @@ class Solution {
 
 
 
- return s.substring(start, start + maxLen);    
- }
+ return s.substring(start, start + maxLen);    }
 }
