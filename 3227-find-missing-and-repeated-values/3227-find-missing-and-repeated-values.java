@@ -1,33 +1,42 @@
 class Solution {
-    public int[] findMissingAndRepeatedValues(int[][] nums) {
-        int[] res= new int[2]; 
-        int n= nums.length; 
-   
+    public int[] findMissingAndRepeatedValues(int[][] grid) {
 
+        long n = grid.length;
+        long N = n * n;
+        long sum = 0, sumOfSquare = 0;
 
-        Map<Integer, Integer> map = new HashMap<>(); 
-        
-        for(int i=0;i<nums.length; i++){
-            for(int j=0;j<nums[0].length; j++){
-                map.put(nums[i][j], map.getOrDefault(nums[i][j], 0)+1); 
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                sum += grid[i][j];
+                sumOfSquare += grid[i][j] * grid[i][j];
             }
         }
-//repeating
-        for(Map.Entry <Integer, Integer> e : map.entrySet()){
-            if(e.getValue()==2)
-                res[0]=e.getKey(); 
-        }
 
+        // Calculate the difference between the sum of squares and the expected sum of squares
+        long x = sumOfSquare - sumOfSquares(N);
+        // Calculate the difference between the sum and the expected sum
+        long y = sum - sigma(N);
 
-for(int i=1; i<=n*n; i++ ){
-    if(!map.containsKey(i))
-       {
-           res[1]=i; 
-           break; 
-       }
-     
-}
-return res; 
+        // Calculate the sum of the missing and repeated numbers
+        long z = x / y;
 
+        // z = a + b, y = a - b
+        // Solve for a and b
+        long a = (z + y) / 2;
+        long b = (z - y) / 2;
+
+        int[] res = new int[2];
+        res[0] = (int) a; // missing number
+        res[1] = (int) b; // repeated number
+
+        return res;
+    }
+
+    private long sigma(long n) {
+        return (n * (n + 1)) / 2;
+    }
+
+    private long sumOfSquares(long n) {
+        return (n * (n + 1) * (2 * n + 1)) / 6;
     }
 }
