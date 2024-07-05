@@ -1,25 +1,35 @@
 class Solution {
     public int findPairs(int[] nums, int k) {
-        int count=0; 
-        int n=nums.length; 
-        Set<List<Integer>> set= new HashSet<>(); 
-
-        //brute
-        for(int i=0;i<n;i++){
-            for(int j=i+1; j<n;j++){
-                if(Math.abs(nums[j]-nums[i])==k)
-                    {
-                        // 
-                        // earlier I did : set.add(Arrays.asList(nums[i], nums[j])); 
-
-                        // why we use Max, Min - so that order of elements is consistent that will help us in finidng the duplicates 
-                        List<Integer> pair = Arrays.asList(Math.min(nums[i], nums[j]), Math.max(nums[i], nums[j]));
-                    set.add(pair);
-                    }
+        Arrays.sort(nums);
+        int ans = 0;
+        int i = 0;
+        int j = 1;
+        while(j < nums.length) {
+            if(nums[j] - nums[i] == k) {
+                if(i > 0 && nums[i] == nums[i-1]) {
+                    i++;
+                    j++;
+                }
+                else {
+                    ans++;
+                    i++;
+                    j++;
+                }
+            }
+            else if(nums[j] - nums[i] < k) {
+                j++;
+            }
+            else {
+                if(i == j-1 && j < nums.length) {
+                    i++;
+                    j++;
+                }
+                else {
+                    i++;
+                }
             }
         }
 
-        return set.size(); 
-        
+        return ans;   
     }
 }
