@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0018-4sum) |
 | [0198-house-robber](https://github.com/mumukshapant/leetcode-practise/tree/master/0198-house-robber) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0724-find-pivot-index](https://github.com/mumukshapant/leetcode-practise/tree/master/0724-find-pivot-index) |
 | [0948-sort-an-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0948-sort-an-array) |
 | [1656-count-good-triplets](https://github.com/mumukshapant/leetcode-practise/tree/master/1656-count-good-triplets) |
 | [1975-minimum-distance-to-the-target-element](https://github.com/mumukshapant/leetcode-practise/tree/master/1975-minimum-distance-to-the-target-element) |
@@ -86,4 +87,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0532-k-diff-pairs-in-an-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0532-k-diff-pairs-in-an-array) |
+## Prefix Sum
+|  |
+| ------- |
+| [0724-find-pivot-index](https://github.com/mumukshapant/leetcode-practise/tree/master/0724-find-pivot-index) |
 <!---LeetCode Topics End-->
