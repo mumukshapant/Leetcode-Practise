@@ -43,12 +43,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/mumukshapant/leetcode-practise/tree/master/0005-longest-palindromic-substring) |
+| [0072-edit-distance](https://github.com/mumukshapant/leetcode-practise/tree/master/0072-edit-distance) |
 | [0242-valid-anagram](https://github.com/mumukshapant/leetcode-practise/tree/master/0242-valid-anagram) |
 | [0556-next-greater-element-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0556-next-greater-element-iii) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/mumukshapant/leetcode-practise/tree/master/0005-longest-palindromic-substring) |
+| [0072-edit-distance](https://github.com/mumukshapant/leetcode-practise/tree/master/0072-edit-distance) |
 | [0198-house-robber](https://github.com/mumukshapant/leetcode-practise/tree/master/0198-house-robber) |
 ## Hash Table
 |  |
