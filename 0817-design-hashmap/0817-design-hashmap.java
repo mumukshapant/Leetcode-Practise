@@ -1,31 +1,42 @@
 class MyHashMap {
-    int[] arr;
-    boolean[] bool;
+    List<Integer> l1; //key
+    List<Integer> l2; //value
+    int index; 
 
     public MyHashMap() {
-        arr = new int[10000001];
-        bool = new boolean[10000001];
+        l1= new ArrayList<>(); 
+        l2= new ArrayList<>();
     }
-
+    
     public void put(int key, int value) {
-        arr[key] = value;
-        bool[key] = true;
-
+        if(l1.contains(key)){
+            index=l1.indexOf(key); 
+            l2.remove(index); 
+            l2.add(index , value); 
+            
+        }else{
+            l1.add(key);
+            l2.add(value);
+        }
+        
     }
-
+    
     public int get(int key) {
-        if (bool[key]) {
-           // bool[key] = false;
-            return arr[key];
+        if(l1.contains(key))
+        {
+            index=l1.indexOf(key);
+            return l2.get(index);
         }
         return -1;
-
     }
-
+    
     public void remove(int key) {
-        
-        bool[key] = false;
-
+         if(l1.contains(key))
+        {
+            index=l1.indexOf(key);
+            l1.remove(index);
+            l2.remove(index);
+        }    
     }
 }
 
