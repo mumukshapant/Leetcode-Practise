@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/mumukshapant/leetcode-practise/tree/master/0004-median-of-two-sorted-arrays) |
 | [0018-4sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0018-4sum) |
 | [0056-merge-intervals](https://github.com/mumukshapant/leetcode-practise/tree/master/0056-merge-intervals) |
 | [0198-house-robber](https://github.com/mumukshapant/leetcode-practise/tree/master/0198-house-robber) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/mumukshapant/leetcode-practise/tree/master/0004-median-of-two-sorted-arrays) |
 | [0948-sort-an-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0948-sort-an-array) |
 ## Heap (Priority Queue)
 |  |
@@ -114,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/mumukshapant/leetcode-practise/tree/master/0004-median-of-two-sorted-arrays) |
 | [0209-minimum-size-subarray-sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/mumukshapant/leetcode-practise/tree/master/0268-missing-number) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/mumukshapant/leetcode-practise/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
