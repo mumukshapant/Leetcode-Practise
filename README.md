@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/mumukshapant/leetcode-practise/tree/master/0005-longest-palindromic-substring) |
 | [0018-4sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0018-4sum) |
+| [0151-reverse-words-in-a-string](https://github.com/mumukshapant/leetcode-practise/tree/master/0151-reverse-words-in-a-string) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0556-next-greater-element-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0556-next-greater-element-iii) |
 ## Sorting
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/mumukshapant/leetcode-practise/tree/master/0005-longest-palindromic-substring) |
 | [0072-edit-distance](https://github.com/mumukshapant/leetcode-practise/tree/master/0072-edit-distance) |
+| [0151-reverse-words-in-a-string](https://github.com/mumukshapant/leetcode-practise/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/mumukshapant/leetcode-practise/tree/master/0242-valid-anagram) |
 | [0556-next-greater-element-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0556-next-greater-element-iii) |
 ## Dynamic Programming
