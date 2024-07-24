@@ -1,34 +1,39 @@
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
 
-        //Steps : 
-        /** 
-        1. HashMap with freq of els 
-        2. Convert hashmap entry  to arraylist 
-        3. sort the arrylist by freq of elemts
-        4. create an array for top[] k elements. 
-        5. chose the k elements from the sorted list e.
-        6. return top[]
-          
-        */
-      
-        Map<Integer, Integer> map = new HashMap<>(); 
-        for(int i:nums){
-            map.put(i, map.getOrDefault(i, 0)+1); 
+        // count sort
+
+        int n = nums.length;
+        Map<Integer, Integer> map = new HashMap<>();
+
+        // find the max element -- that would be the size of count arr
+        for (int i = 0; i < n; i++) {
+            map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
         }
-        
-List<Map.Entry<Integer, Integer>> list = new ArrayList<>(map.entrySet());
-list.sort((a, b) -> b.getValue() - a.getValue()); 
-int[] top = new int[k]; 
-for(int i=0;i<k;i++){
-    top[i]=list.get(i).getKey();
-}
 
+        List<Integer>[] bucket = new List[n + 1];
 
+        for (int i : map.keySet()) {
+            int freq = map.get(i);
 
+            if (bucket[freq] == null)
+                bucket[freq] = new ArrayList<>();
 
-return top; 
+            bucket[freq].add(i);
 
-}
+        }
 
+        int[] res = new int[k];
+        int count = 0;
+        for (int i = bucket.length - 1; i >= 0 && count < k; i--) {
+            if (bucket[i] != null) {
+                for (Integer integer : bucket[i]) {
+                    res[count] = integer;
+                    count++;
+                }
+            }
+        }
+        return res;
+
+    }
 }
