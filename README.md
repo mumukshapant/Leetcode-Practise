@@ -172,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [2121-find-if-path-exists-in-graph](https://github.com/mumukshapant/leetcode-practise/tree/master/2121-find-if-path-exists-in-graph) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -180,10 +181,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/mumukshapant/leetcode-practise/tree/master/0200-number-of-islands) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [2121-find-if-path-exists-in-graph](https://github.com/mumukshapant/leetcode-practise/tree/master/2121-find-if-path-exists-in-graph) |
 ## Union Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/mumukshapant/leetcode-practise/tree/master/0200-number-of-islands) |
+| [2121-find-if-path-exists-in-graph](https://github.com/mumukshapant/leetcode-practise/tree/master/2121-find-if-path-exists-in-graph) |
 ## Tree
 |  |
 | ------- |
@@ -219,4 +222,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0783-search-in-a-binary-search-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0783-search-in-a-binary-search-tree) |
+## Graph
+|  |
+| ------- |
+| [2121-find-if-path-exists-in-graph](https://github.com/mumukshapant/leetcode-practise/tree/master/2121-find-if-path-exists-in-graph) |
 <!---LeetCode Topics End-->
