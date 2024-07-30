@@ -4,7 +4,8 @@ PriorityQueue<Integer> pq;
 // let us remove set , we dont need it because pq in it self provides u
 
 //The code works without the Set<Integer> set because the PriorityQueue<Integer> pq itself can ensure the functionality required for the SmallestInfiniteSet class.
-
+// but time complexity of addback becomes O(n) 
+// with set , ciomplecuity of addback is O(1), so using set is better
 
 // Set<Integer> set ; 
 
