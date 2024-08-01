@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0072-edit-distance](https://github.com/mumukshapant/leetcode-practise/tree/master/0072-edit-distance) |
 | [0151-reverse-words-in-a-string](https://github.com/mumukshapant/leetcode-practise/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/mumukshapant/leetcode-practise/tree/master/0242-valid-anagram) |
+| [0257-binary-tree-paths](https://github.com/mumukshapant/leetcode-practise/tree/master/0257-binary-tree-paths) |
 | [0556-next-greater-element-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0556-next-greater-element-iii) |
 ## Dynamic Programming
 |  |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/mumukshapant/leetcode-practise/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/mumukshapant/leetcode-practise/tree/master/0200-number-of-islands) |
+| [0257-binary-tree-paths](https://github.com/mumukshapant/leetcode-practise/tree/master/0257-binary-tree-paths) |
 | [0437-path-sum-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0437-path-sum-iii) |
 | [0904-leaf-similar-trees](https://github.com/mumukshapant/leetcode-practise/tree/master/0904-leaf-similar-trees) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -198,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/mumukshapant/leetcode-practise/tree/master/0199-binary-tree-right-side-view) |
+| [0257-binary-tree-paths](https://github.com/mumukshapant/leetcode-practise/tree/master/0257-binary-tree-paths) |
 | [0437-path-sum-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0437-path-sum-iii) |
 | [0783-search-in-a-binary-search-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0783-search-in-a-binary-search-tree) |
 | [0904-leaf-similar-trees](https://github.com/mumukshapant/leetcode-practise/tree/master/0904-leaf-similar-trees) |
@@ -209,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/mumukshapant/leetcode-practise/tree/master/0199-binary-tree-right-side-view) |
+| [0257-binary-tree-paths](https://github.com/mumukshapant/leetcode-practise/tree/master/0257-binary-tree-paths) |
 | [0437-path-sum-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0437-path-sum-iii) |
 | [0783-search-in-a-binary-search-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0783-search-in-a-binary-search-tree) |
 | [0904-leaf-similar-trees](https://github.com/mumukshapant/leetcode-practise/tree/master/0904-leaf-similar-trees) |
@@ -237,4 +241,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2553-total-cost-to-hire-k-workers](https://github.com/mumukshapant/leetcode-practise/tree/master/2553-total-cost-to-hire-k-workers) |
+## Backtracking
+|  |
+| ------- |
+| [0257-binary-tree-paths](https://github.com/mumukshapant/leetcode-practise/tree/master/0257-binary-tree-paths) |
 <!---LeetCode Topics End-->
