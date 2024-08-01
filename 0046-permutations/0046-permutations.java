@@ -1,39 +1,42 @@
-
 class Solution {
+
+    //ref : https://www.youtube.com/watch?v=H232aocj7bQ
     public List<List<Integer>> permute(int[] nums) {
 
-
         List<List<Integer>> res = new ArrayList<>();
-        boolean[] used = new boolean[nums.length]; // Correctly initialize the used array
+        boolean[] used = new boolean[nums.length]; 
+
+
         List<Integer> permutation = new ArrayList<>();
 
-        backtrack(res, nums, permutation, used);
+        backtrack(res, permutation, nums, used);
+        
         return res;
+
     }
 
+    public void backtrack(List<List<Integer>> res, List<Integer> perm, int[] nums, boolean[] used) {
 
-    void backtrack(List<List<Integer>> res, int[] nums, List<Integer> permutation, boolean[] used) {
-
-        // if goal is reached, add the solution to the result set. & return 
-        if (permutation.size() == nums.length) {
-            res.add(new ArrayList<>(permutation)); // Clone the permutation list
+        if (perm.size() == nums.length) {
+            res.add(new ArrayList<>(perm));
             return;
         }
 
-        // choices are left. 
         for (int i = 0; i < nums.length; i++) {
-            if (!used[i]) // valid choice
-            { 
+
+            // letter has not been used yet
+            if (used[i] == false) {
+
+                perm.add(nums[i]);
                 used[i] = true;
-                permutation.add(nums[i]); // make a choice
-                backtrack(res, nums, permutation, used);  //backtrack 
+                backtrack(res, perm, nums, used);
 
-                // undo choice -- remove the last element 
                 used[i] = false;
-                permutation.remove(permutation.size() - 1); 
-            }
-        }
-    }
+                perm.remove(perm.size() - 1);
 
-   
+            }
+
+        }
+
+    }
 }
