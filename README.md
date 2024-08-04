@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/mumukshapant/leetcode-practise/tree/master/0004-median-of-two-sorted-arrays) |
+| [0011-container-with-most-water](https://github.com/mumukshapant/leetcode-practise/tree/master/0011-container-with-most-water) |
 | [0018-4sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0018-4sum) |
 | [0046-permutations](https://github.com/mumukshapant/leetcode-practise/tree/master/0046-permutations) |
 | [0056-merge-intervals](https://github.com/mumukshapant/leetcode-practise/tree/master/0056-merge-intervals) |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/mumukshapant/leetcode-practise/tree/master/0005-longest-palindromic-substring) |
+| [0011-container-with-most-water](https://github.com/mumukshapant/leetcode-practise/tree/master/0011-container-with-most-water) |
 | [0018-4sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0018-4sum) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/mumukshapant/leetcode-practise/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/mumukshapant/leetcode-practise/tree/master/0151-reverse-words-in-a-string) |
@@ -231,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/mumukshapant/leetcode-practise/tree/master/0011-container-with-most-water) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/mumukshapant/leetcode-practise/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [3081-minimum-array-length-after-pair-removals](https://github.com/mumukshapant/leetcode-practise/tree/master/3081-minimum-array-length-after-pair-removals) |
 ## Quickselect
