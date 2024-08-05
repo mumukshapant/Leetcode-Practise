@@ -1,20 +1,20 @@
 class Solution {
     public int findMinArrowShots(int[][] nums) {
+        
+        Arrays.sort(nums, (a,b)->Integer.compare(a[1], b[1]));
         int count=1; 
-        Arrays.sort(nums, (a,b) -> Integer.compare(a[1], b[1])) ; 
-        //becomes [1,6] , [2,8] , [7,12] , [10,16]
-        int j=0;  //prev
+        
+        int[] curr= nums[0]; //1,6
 
-        for(int i=1;i<nums.length; i++){
-      
-                if(nums[j][1]<nums[i][0]) // merge intervals
-                {
-                    count++; 
-                    j=i; 
+        for(int i=1; i<nums.length;i++){
+            if(curr[1]<nums[i][0]){
+                count++; 
+                curr=nums[i]; 
+            }
 
-                }
-            
         }
+
+
         return count; 
     }
 }
