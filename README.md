@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/mumukshapant/leetcode-practise/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/mumukshapant/leetcode-practise/tree/master/0268-missing-number) |
 | [0556-next-greater-element-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0556-next-greater-element-iii) |
 | [3227-find-missing-and-repeated-values](https://github.com/mumukshapant/leetcode-practise/tree/master/3227-find-missing-and-repeated-values) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/mumukshapant/leetcode-practise/tree/master/0005-longest-palindromic-substring) |
+| [0070-climbing-stairs](https://github.com/mumukshapant/leetcode-practise/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/mumukshapant/leetcode-practise/tree/master/0072-edit-distance) |
 | [0198-house-robber](https://github.com/mumukshapant/leetcode-practise/tree/master/0198-house-robber) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
@@ -260,4 +262,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/mumukshapant/leetcode-practise/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0046-permutations](https://github.com/mumukshapant/leetcode-practise/tree/master/0046-permutations) |
 | [0257-binary-tree-paths](https://github.com/mumukshapant/leetcode-practise/tree/master/0257-binary-tree-paths) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/mumukshapant/leetcode-practise/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
