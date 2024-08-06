@@ -1,21 +1,14 @@
 class Solution {
     public int missingNumber(int[] nums) {
-        Arrays.sort(nums);
-        int n = nums.length;
-        int low = 0, high = n-1;
-         
+        int n= nums.length;
+        int total= (n*(n+1))/2; 
+        int sum=0; 
 
-        while (low <= high) {
-           int mid = low+( high-low) / 2;
-            if (nums[mid] <= mid) 
-                low = mid+1;
-
-             else 
-                high = mid -1;
-            
-           
+        for(int i=0;i<n; i++){
+             sum+=nums[i]; 
         }
 
-        return low;
+        return total-sum; 
+        
     }
 }
