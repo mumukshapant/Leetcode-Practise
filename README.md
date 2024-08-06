@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/mumukshapant/leetcode-practise/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/mumukshapant/leetcode-practise/tree/master/0011-container-with-most-water) |
 | [0018-4sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0018-4sum) |
+| [0036-valid-sudoku](https://github.com/mumukshapant/leetcode-practise/tree/master/0036-valid-sudoku) |
 | [0046-permutations](https://github.com/mumukshapant/leetcode-practise/tree/master/0046-permutations) |
 | [0055-jump-game](https://github.com/mumukshapant/leetcode-practise/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/mumukshapant/leetcode-practise/tree/master/0056-merge-intervals) |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/mumukshapant/leetcode-practise/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0036-valid-sudoku](https://github.com/mumukshapant/leetcode-practise/tree/master/0036-valid-sudoku) |
 | [0242-valid-anagram](https://github.com/mumukshapant/leetcode-practise/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/mumukshapant/leetcode-practise/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/mumukshapant/leetcode-practise/tree/master/0347-top-k-frequent-elements) |
@@ -146,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/mumukshapant/leetcode-practise/tree/master/0036-valid-sudoku) |
 | [0200-number-of-islands](https://github.com/mumukshapant/leetcode-practise/tree/master/0200-number-of-islands) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/mumukshapant/leetcode-practise/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [3227-find-missing-and-repeated-values](https://github.com/mumukshapant/leetcode-practise/tree/master/3227-find-missing-and-repeated-values) |
