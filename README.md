@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/mumukshapant/leetcode-practise/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/mumukshapant/leetcode-practise/tree/master/0057-insert-interval) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/mumukshapant/leetcode-practise/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/mumukshapant/leetcode-practise/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0198-house-robber](https://github.com/mumukshapant/leetcode-practise/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/mumukshapant/leetcode-practise/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0209-minimum-size-subarray-sum) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/mumukshapant/leetcode-practise/tree/master/0070-climbing-stairs) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/mumukshapant/leetcode-practise/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0268-missing-number](https://github.com/mumukshapant/leetcode-practise/tree/master/0268-missing-number) |
 | [0556-next-greater-element-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0556-next-greater-element-iii) |
 | [3227-find-missing-and-repeated-values](https://github.com/mumukshapant/leetcode-practise/tree/master/3227-find-missing-and-repeated-values) |
@@ -275,4 +277,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/mumukshapant/leetcode-practise/tree/master/0070-climbing-stairs) |
+## Stack
+|  |
+| ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/mumukshapant/leetcode-practise/tree/master/0150-evaluate-reverse-polish-notation) |
 <!---LeetCode Topics End-->
