@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/mumukshapant/leetcode-practise/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0268-missing-number](https://github.com/mumukshapant/leetcode-practise/tree/master/0268-missing-number) |
 | [0556-next-greater-element-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0556-next-greater-element-iii) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/mumukshapant/leetcode-practise/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [3227-find-missing-and-repeated-values](https://github.com/mumukshapant/leetcode-practise/tree/master/3227-find-missing-and-repeated-values) |
 ## String
 |  |
@@ -205,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0237-delete-node-in-a-linked-list](https://github.com/mumukshapant/leetcode-practise/tree/master/0237-delete-node-in-a-linked-list) |
 | [0817-design-hashmap](https://github.com/mumukshapant/leetcode-practise/tree/master/0817-design-hashmap) |
 | [0908-middle-of-the-linked-list](https://github.com/mumukshapant/leetcode-practise/tree/master/0908-middle-of-the-linked-list) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/mumukshapant/leetcode-practise/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1765-merge-in-between-linked-lists](https://github.com/mumukshapant/leetcode-practise/tree/master/1765-merge-in-between-linked-lists) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/mumukshapant/leetcode-practise/tree/master/2299-merge-nodes-in-between-zeros) |
 ## Design
