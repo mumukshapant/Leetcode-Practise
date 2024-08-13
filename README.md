@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0556-next-greater-element-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0556-next-greater-element-iii) |
 | [1533-display-table-of-food-orders-in-a-restaurant](https://github.com/mumukshapant/leetcode-practise/tree/master/1533-display-table-of-food-orders-in-a-restaurant) |
 | [2502-sort-the-people](https://github.com/mumukshapant/leetcode-practise/tree/master/2502-sort-the-people) |
+| [3426-minimum-number-of-chairs-in-a-waiting-room](https://github.com/mumukshapant/leetcode-practise/tree/master/3426-minimum-number-of-chairs-in-a-waiting-room) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -300,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2299-merge-nodes-in-between-zeros](https://github.com/mumukshapant/leetcode-practise/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/mumukshapant/leetcode-practise/tree/master/2553-total-cost-to-hire-k-workers) |
+| [3426-minimum-number-of-chairs-in-a-waiting-room](https://github.com/mumukshapant/leetcode-practise/tree/master/3426-minimum-number-of-chairs-in-a-waiting-room) |
 ## Backtracking
 |  |
 | ------- |
