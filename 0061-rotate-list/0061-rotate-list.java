@@ -17,18 +17,22 @@ class Solution {
             return head; 
 
         ListNode temp = head; 
+        int len=1;
         while(temp.next!=null)
-            temp=temp.next; 
+            {temp=temp.next; 
+            len++; }
 
         temp.next=head; 
+         k = k % len; // because value of k can be greater 
+ 
 
         ListNode curr=head; 
 
-        for(int i=0;i<k;i++){
-            curr=curr.next;
+        for(int i=0;i<len-k;i++){
+            temp=temp.next;
         }
-        head=curr.next; 
-        curr.next=null;
+        head=temp.next; 
+        temp.next=null;
 
         return head; 
         
