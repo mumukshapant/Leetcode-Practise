@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/mumukshapant/leetcode-practise/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/mumukshapant/leetcode-practise/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/mumukshapant/leetcode-practise/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/mumukshapant/leetcode-practise/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/mumukshapant/leetcode-practise/tree/master/0005-longest-palindromic-substring) |
 | [0055-jump-game](https://github.com/mumukshapant/leetcode-practise/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/mumukshapant/leetcode-practise/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/mumukshapant/leetcode-practise/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/mumukshapant/leetcode-practise/tree/master/0072-edit-distance) |
 | [0198-house-robber](https://github.com/mumukshapant/leetcode-practise/tree/master/0198-house-robber) |
@@ -382,4 +384,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0223-rectangle-area](https://github.com/mumukshapant/leetcode-practise/tree/master/0223-rectangle-area) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/mumukshapant/leetcode-practise/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
