@@ -1,14 +1,17 @@
 class Solution {
     public int singleNumber(int[] nums) {
-        Map<Integer, Integer> map = new HashMap<>(); 
-        for(int i:nums)
-        map.put(i, map.getOrDefault(i,0)+1); 
+        //using property : a^a = 0 && a^0=a
+        // XOR is : 
 
-        for(Map.Entry<Integer, Integer> e:map.entrySet())
-            if (e.getValue()==1 )
-                return e.getKey(); 
-    
-    return -1; 
-    
+        // 0 0  |  0
+        // 1 0  |  1
+        // 0 1  |  1
+        // 1 1  |  0
+
+        int xor=0; 
+        for(int i=0;i<nums.length;i++){
+             xor=xor^nums[i]; 
+        }
+        return xor; 
     }
 }
