@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/mumukshapant/leetcode-practise/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/mumukshapant/leetcode-practise/tree/master/0036-valid-sudoku) |
 | [0046-permutations](https://github.com/mumukshapant/leetcode-practise/tree/master/0046-permutations) |
+| [0053-maximum-subarray](https://github.com/mumukshapant/leetcode-practise/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/mumukshapant/leetcode-practise/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/mumukshapant/leetcode-practise/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/mumukshapant/leetcode-practise/tree/master/0057-insert-interval) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/mumukshapant/leetcode-practise/tree/master/0005-longest-palindromic-substring) |
+| [0053-maximum-subarray](https://github.com/mumukshapant/leetcode-practise/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/mumukshapant/leetcode-practise/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/mumukshapant/leetcode-practise/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0064-minimum-path-sum) |
@@ -177,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/mumukshapant/leetcode-practise/tree/master/0004-median-of-two-sorted-arrays) |
+| [0053-maximum-subarray](https://github.com/mumukshapant/leetcode-practise/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/mumukshapant/leetcode-practise/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/mumukshapant/leetcode-practise/tree/master/0347-top-k-frequent-elements) |
