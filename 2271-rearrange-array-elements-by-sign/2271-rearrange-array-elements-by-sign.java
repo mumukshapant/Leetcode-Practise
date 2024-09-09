@@ -1,22 +1,23 @@
 class Solution {
-    public int[] rearrangeArray(int[] nums) {
-        //brute : O(N+N/2) of running time 
-        ArrayList<Integer> pos = new ArrayList<>(); 
-        ArrayList<Integer> neg= new ArrayList<>();
-       // int n= nums.length-1; 
-        for(int i=0;i<nums.length;i++){
-            if(nums[i]>0 )
-                pos.add(nums[i]); 
-            else    neg.add(nums[i]); 
+    public int[] rearrangeArray(int[] A) {
+         int posIndex = 0, negIndex = 1;
+         int n= A.length; 
+         int[] ans = new int[A.length];
+        for (int i = 0; i < n; i++) {
+
+            // Fill negative elements in odd indices and inc by 2.
+            if (A[i] < 0) {
+                ans[negIndex]= A[i];
+                negIndex += 2;
+            }
+
+            // Fill positive elements in even indices and inc by 2.
+            else {
+                ans[posIndex]= A[i];
+                posIndex += 2;
+            }
         }
 
-        //now add those numbers in nums
-        int i = 0;
-        int p = 0, n = 0;
-        while (p < pos.size() && n < neg.size()) {
-            nums[i++] = pos.get(p++);
-            nums[i++] = neg.get(n++);
-        }
-        return nums;
+        return ans;
     }
 }
