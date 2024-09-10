@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/mumukshapant/leetcode-practise/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/mumukshapant/leetcode-practise/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/mumukshapant/leetcode-practise/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0128-longest-consecutive-sequence](https://github.com/mumukshapant/leetcode-practise/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/mumukshapant/leetcode-practise/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/mumukshapant/leetcode-practise/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0169-majority-element](https://github.com/mumukshapant/leetcode-practise/tree/master/0169-majority-element) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/mumukshapant/leetcode-practise/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0036-valid-sudoku](https://github.com/mumukshapant/leetcode-practise/tree/master/0036-valid-sudoku) |
 | [0073-set-matrix-zeroes](https://github.com/mumukshapant/leetcode-practise/tree/master/0073-set-matrix-zeroes) |
+| [0128-longest-consecutive-sequence](https://github.com/mumukshapant/leetcode-practise/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/mumukshapant/leetcode-practise/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/mumukshapant/leetcode-practise/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/mumukshapant/leetcode-practise/tree/master/0169-majority-element) |
@@ -313,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/mumukshapant/leetcode-practise/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/mumukshapant/leetcode-practise/tree/master/0200-number-of-islands) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mumukshapant/leetcode-practise/tree/master/2121-find-if-path-exists-in-graph) |
 ## Tree
