@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/mumukshapant/leetcode-practise/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/mumukshapant/leetcode-practise/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/mumukshapant/leetcode-practise/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/mumukshapant/leetcode-practise/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/mumukshapant/leetcode-practise/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/mumukshapant/leetcode-practise/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/mumukshapant/leetcode-practise/tree/master/0057-insert-interval) |
@@ -224,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/mumukshapant/leetcode-practise/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/mumukshapant/leetcode-practise/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/mumukshapant/leetcode-practise/tree/master/0054-spiral-matrix) |
 | [0064-minimum-path-sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/mumukshapant/leetcode-practise/tree/master/0073-set-matrix-zeroes) |
 | [0200-number-of-islands](https://github.com/mumukshapant/leetcode-practise/tree/master/0200-number-of-islands) |
@@ -374,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/mumukshapant/leetcode-practise/tree/master/0054-spiral-matrix) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/mumukshapant/leetcode-practise/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/mumukshapant/leetcode-practise/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/mumukshapant/leetcode-practise/tree/master/2553-total-cost-to-hire-k-workers) |
