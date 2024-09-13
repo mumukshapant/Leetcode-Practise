@@ -1,35 +1,38 @@
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
+
+        Arrays.sort(nums);
+        Set<List<Integer>> res = new HashSet<>();
         int n = nums.length;
-        Set<List<Integer>> st = new HashSet<>();
 
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                Set<Long> hashset = new HashSet<>();
+        for (int i = 0; i < n - 3; i++) {
+            for (int j = i + 1; j < n - 2; j++) {
 
-                for (int k = j + 1; k < n; k++) {
+                int left = j + 1;
+                int right = n - 1;
 
-                    long sum = nums[i] + nums[j];
-                    sum += nums[k];
-                    long fourth = target - sum;
-                    if (hashset.contains(fourth)) {
-                        List<Integer> temp = new ArrayList<>();
+                while (left < right) {
+                    long sum =(long)nums[i] + (long)nums[j] + (long)nums[left] + (long)nums[right];
+                    if (sum == target) {
 
-                        temp.add(nums[i]);
-                        temp.add(nums[j]);
-                        temp.add(nums[k]);
-                        temp.add((int) fourth);
-                        Collections.sort(temp);
-                        st.add(temp);
-
+                        res.add(Arrays.asList(nums[i], nums[j], nums[left], nums[right]));
+                        left++;
+                        right--;
                     }
-                    hashset.add((long)nums[k]);
+
+                    else if (sum < target)
+                        left++;
+
+                    else
+                        right--;
 
                 }
             }
-
         }
-        List<List<Integer>> ans = new ArrayList<>(st);
-        return ans;
-    }
-}
+    
+
+    List<List<Integer>> finalres= new ArrayList<>(res);
+
+    return finalres;
+
+}}
