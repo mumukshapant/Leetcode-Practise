@@ -1,42 +1,38 @@
 class Solution {
-
-    //ref : https://www.youtube.com/watch?v=H232aocj7bQ
     public List<List<Integer>> permute(int[] nums) {
 
-        List<List<Integer>> res = new ArrayList<>();
-        boolean[] used = new boolean[nums.length]; 
+        List<List<Integer>> res= new ArrayList<>(); //final list of all permutations
+        List<Integer> perm= new ArrayList<>(); //list of temporary permutations
+        boolean[] used= new boolean[nums.length]; 
 
+        backtrack(res, perm, used, nums);
 
-        List<Integer> permutation = new ArrayList<>();
-
-        backtrack(res, permutation, nums, used);
+        return res; 
         
-        return res;
-
     }
 
-    public void backtrack(List<List<Integer>> res, List<Integer> perm, int[] nums, boolean[] used) {
+    private void backtrack(List<List<Integer>> res, List<Integer> perm, boolean[] used, int[] nums ){
 
-        if (perm.size() == nums.length) {
-            res.add(new ArrayList<>(perm));
-            return;
+        if(perm.size()==nums.length){
+            res.add(new ArrayList<>(perm)); 
+            return ; 
         }
 
-        for (int i = 0; i < nums.length; i++) {
+        for(int i=0;i<nums.length;i++){
 
-            // letter has not been used yet
-            if (used[i] == false) {
+//currently used is false
+            if(!used[i]){
+                perm.add(nums[i]); 
+                used[i]=true; 
 
-                perm.add(nums[i]);
-                used[i] = true;
-                backtrack(res, perm, nums, used);
+                backtrack(res, perm, used, nums); 
 
-                used[i] = false;
-                perm.remove(perm.size() - 1);
-
+                used[i]=false; 
+                perm.remove(perm.size()-1); 
             }
-
         }
+
+
 
     }
 }
