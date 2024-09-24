@@ -2,9 +2,12 @@ class Solution {
     public int minEatingSpeed(int[] nums, int h) {
         int low=0;
         int high=Integer.MIN_VALUE;
-        for(int e:nums){
-            high=Math.max(high,e);
-        }
+        Arrays.sort(nums);
+        // for(int e:nums){
+        //     high=Math.max(high,e);
+        // }
+        high=nums[nums.length-1];
+        System.out.print(high);
         while(low<=high){
             int mid= low+(high-low)/2; 
             int totaltime=0; 
