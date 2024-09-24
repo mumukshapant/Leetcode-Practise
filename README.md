@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0747-min-cost-climbing-stairs](https://github.com/mumukshapant/leetcode-practise/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/mumukshapant/leetcode-practise/tree/master/0792-binary-search) |
 | [0817-design-hashmap](https://github.com/mumukshapant/leetcode-practise/tree/master/0817-design-hashmap) |
+| [0907-koko-eating-bananas](https://github.com/mumukshapant/leetcode-practise/tree/master/0907-koko-eating-bananas) |
 | [0948-sort-an-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0948-sort-an-array) |
 | [1533-display-table-of-food-orders-in-a-restaurant](https://github.com/mumukshapant/leetcode-practise/tree/master/1533-display-table-of-food-orders-in-a-restaurant) |
 | [1656-count-good-triplets](https://github.com/mumukshapant/leetcode-practise/tree/master/1656-count-good-triplets) |
@@ -275,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/mumukshapant/leetcode-practise/tree/master/0792-binary-search) |
+| [0907-koko-eating-bananas](https://github.com/mumukshapant/leetcode-practise/tree/master/0907-koko-eating-bananas) |
 | [3081-minimum-array-length-after-pair-removals](https://github.com/mumukshapant/leetcode-practise/tree/master/3081-minimum-array-length-after-pair-removals) |
 ## Prefix Sum
 |  |
