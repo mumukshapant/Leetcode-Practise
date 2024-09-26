@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/mumukshapant/leetcode-practise/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1533-display-table-of-food-orders-in-a-restaurant](https://github.com/mumukshapant/leetcode-practise/tree/master/1533-display-table-of-food-orders-in-a-restaurant) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/mumukshapant/leetcode-practise/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1646-kth-missing-positive-number](https://github.com/mumukshapant/leetcode-practise/tree/master/1646-kth-missing-positive-number) |
 | [1656-count-good-triplets](https://github.com/mumukshapant/leetcode-practise/tree/master/1656-count-good-triplets) |
 | [1975-minimum-distance-to-the-target-element](https://github.com/mumukshapant/leetcode-practise/tree/master/1975-minimum-distance-to-the-target-element) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/mumukshapant/leetcode-practise/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
@@ -283,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/mumukshapant/leetcode-practise/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/mumukshapant/leetcode-practise/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/mumukshapant/leetcode-practise/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1646-kth-missing-positive-number](https://github.com/mumukshapant/leetcode-practise/tree/master/1646-kth-missing-positive-number) |
 | [3081-minimum-array-length-after-pair-removals](https://github.com/mumukshapant/leetcode-practise/tree/master/3081-minimum-array-length-after-pair-removals) |
 ## Prefix Sum
 |  |
