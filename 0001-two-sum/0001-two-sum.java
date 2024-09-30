@@ -1,7 +1,7 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>(); 
-        map.put(0,1); 
+        //map.put(0,1); 
         int[] res= new int[2]; 
         int sum=0; 
 
