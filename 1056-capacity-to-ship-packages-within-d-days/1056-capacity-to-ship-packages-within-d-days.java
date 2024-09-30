@@ -1,47 +1,42 @@
 class Solution {
     public int shipWithinDays(int[] nums, int days) {
-        int maxcap = 0;
         int low = 0;
-       
+        int high = 0;
 
-        // Maximum capacity could be the sum of all
-        for (int i : nums)
-            maxcap += i;
+        for (int i = 0; i < nums.length; i++) {
+            low = Math.max(nums[i], low);
+            high += nums[i];
+        }
 
-        // lowest ::  Minimum capacity is the largest single package
-        for (int i : nums)
-            low = Math.max(low, i);
-
-        int high = maxcap;
-         int ans = 0; 
+        int ans = high;
 
         while (low <= high) {
-
-            int mid = low + (high - low) / 2;
+            int capacity = low + (high - low) / 2;
             int reqdays = 1;
             int sum = 0;
 
             for (int i = 0; i < nums.length; i++) {
+                if (nums[i] + sum <= capacity) 
+                    sum += nums[i]; // since curr sum capacity se kam hai, to we can add more boxes
+                else {
 
-                if (sum + nums[i] > mid) {
                     reqdays++;
-                    sum = 0;
-                }
-                sum += nums[i];
-            }
+                    sum = nums[i]; }
+                
+            }// for loop closing
+
+            // outside the FOR loop
+
+            if (reqdays <= days) { // means capacity zyada li hai humne, issi liye required days kam hain
+                ans = capacity;
+                high = capacity - 1;
+
+            } else
+                low = capacity + 1;
 
 
-                if (reqdays <= days) {
-                    ans = mid;
-                    high = mid - 1;
-
-                } else
-                    low = mid + 1;
-
-            
 
         }
-
 
         return ans;
 
