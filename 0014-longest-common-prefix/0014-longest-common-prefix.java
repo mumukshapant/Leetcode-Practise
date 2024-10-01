@@ -1,24 +1,27 @@
 class Solution {
-    public String longestCommonPrefix(String[] s) {
+    public String longestCommonPrefix(String[] strs) {
 
-        Arrays.sort(s); //flight , flow, flower
+        Arrays.sort(strs);  // flight , flow, flower
+        StringBuilder sb= new StringBuilder(); 
 
-        int i=0; 
-        int n= s.length; 
+        int n= strs.length; 
 
-        String s1= s[0];   //f l i g h t
-        String s2= s[n-1];// f l o w e r 
+        String s1= strs[0];  //flight
+        String s2= strs[n-1]; //flower
+        int i=0,j=0; 
 
-        while(i<s1.length() && i<s2.length() ){
-            if(s1.charAt(i)==s2.charAt(i))
-                 i++; 
+        while(i!=s1.length() && j!=s2.length()){
+            if(s1.charAt(i)==s2.charAt(j)){
+                sb.append(s1.charAt(i)); 
+                i++; 
+                j++; 
+            }else {
+                break; 
+            }
 
-            else 
-                break ; 
         }
-        return s1.substring(0,i); 
+        return sb.toString(); 
 
-
-
+        
     }
 }
