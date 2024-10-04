@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0189-rotate-array) |
 | [0223-rectangle-area](https://github.com/mumukshapant/leetcode-practise/tree/master/0223-rectangle-area) |
 | [0268-missing-number](https://github.com/mumukshapant/leetcode-practise/tree/master/0268-missing-number) |
+| [0415-add-strings](https://github.com/mumukshapant/leetcode-practise/tree/master/0415-add-strings) |
 | [0556-next-greater-element-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0556-next-greater-element-iii) |
 | [1013-fibonacci-number](https://github.com/mumukshapant/leetcode-practise/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/mumukshapant/leetcode-practise/tree/master/1236-n-th-tribonacci-number) |
@@ -153,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/mumukshapant/leetcode-practise/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/mumukshapant/leetcode-practise/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/mumukshapant/leetcode-practise/tree/master/0257-binary-tree-paths) |
+| [0415-add-strings](https://github.com/mumukshapant/leetcode-practise/tree/master/0415-add-strings) |
 | [0451-sort-characters-by-frequency](https://github.com/mumukshapant/leetcode-practise/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/mumukshapant/leetcode-practise/tree/master/0516-longest-palindromic-subsequence) |
 | [0556-next-greater-element-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0556-next-greater-element-iii) |
@@ -441,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/mumukshapant/leetcode-practise/tree/master/0054-spiral-matrix) |
+| [0415-add-strings](https://github.com/mumukshapant/leetcode-practise/tree/master/0415-add-strings) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/mumukshapant/leetcode-practise/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/mumukshapant/leetcode-practise/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/mumukshapant/leetcode-practise/tree/master/2553-total-cost-to-hire-k-workers) |
