@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/mumukshapant/leetcode-practise/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0189-rotate-array) |
 | [0223-rectangle-area](https://github.com/mumukshapant/leetcode-practise/tree/master/0223-rectangle-area) |
+| [0258-add-digits](https://github.com/mumukshapant/leetcode-practise/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/mumukshapant/leetcode-practise/tree/master/0268-missing-number) |
 | [0415-add-strings](https://github.com/mumukshapant/leetcode-practise/tree/master/0415-add-strings) |
 | [0556-next-greater-element-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0556-next-greater-element-iii) |
@@ -444,6 +445,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/mumukshapant/leetcode-practise/tree/master/0054-spiral-matrix) |
+| [0258-add-digits](https://github.com/mumukshapant/leetcode-practise/tree/master/0258-add-digits) |
 | [0415-add-strings](https://github.com/mumukshapant/leetcode-practise/tree/master/0415-add-strings) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/mumukshapant/leetcode-practise/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/mumukshapant/leetcode-practise/tree/master/2299-merge-nodes-in-between-zeros) |
@@ -512,4 +514,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0812-rotate-string](https://github.com/mumukshapant/leetcode-practise/tree/master/0812-rotate-string) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/mumukshapant/leetcode-practise/tree/master/0258-add-digits) |
 <!---LeetCode Topics End-->
