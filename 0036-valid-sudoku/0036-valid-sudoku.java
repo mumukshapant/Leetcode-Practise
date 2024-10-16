@@ -1,52 +1,59 @@
 class Solution {
-    public boolean isValidSudoku(char[][] board) {
-        Set<Character> rowset=new HashSet<>(); 
-        Set<Character> colset=new HashSet<>(); 
+    // we check row for duplicates -- rowset
+    // col for duplicates -- colset
+    // each box for duplicates--isBoardValid
 
-        for(int i=0;i<board.length; i++){
+    public boolean isValidSudoku(char[][] b) {
+        if(b.length>9 || b[0].length>9)
+        return false; 
+
+        Set<Character> rowset; 
+        Set<Character> colset; 
+
+        for(int i=0;i<9; i=i+3)
+            for(int j=0;j<9 ; j=j+3)
+                if(!isBoardValid(b, i, j))
+                    return false; 
+
+        for(int i=0;i<9; i++){
+            rowset = new HashSet<>(); 
             colset=new HashSet<>(); 
-            rowset= new HashSet<>(); 
+            for(int j=0;j<9;j++){
 
-            for(int j=0;j<board[0].length ; j++){
-                if(board[i][j]!='.' && rowset.contains(board[i][j]))
+                //rows 
+                if(b[i][j] != '.' && rowset.contains(b[i][j]))  
                     return false; 
+                else if (b[i][j] != '.' && !rowset.contains(b[i][j]))
+                    rowset.add(b[i][j]);
 
-                else    
-                    rowset.add(board[i][j]); 
-
-                if(board[j][i]!='.' && colset.contains(board[j][i]))
+                //columns
+                if(b[j][i] != '.' && colset.contains(b[j][i]))  
                     return false; 
+                else if (b[j][i] != '.' && !colset.contains(b[j][i]))
+                    colset.add(b[j][i]);
 
-                else    
-                    colset.add(board[j][i]); 
             }
         }
+    
 
-        for(int i=0;i<9;i=i+3)
-            for(int j=0;j<9; j=j+3)
-                if(!isBoardValid(board, i, j))
-                    return false; 
 
 
     return true; 
-        
+
     }
-    public boolean isBoardValid(char[][] b, int row, int col){
-            HashSet<Character> set = new HashSet<>();
 
-        for(int i=row; i<row+3; i++){
-            for(int j=col; j<col+3; j++){
-
-                if(!set.contains(b[i][j]))
-                    set.add(b[i][j]); 
-                
-                else if(b[i][j]!='.')
-                    return false; 
-
-                
+    // checking the box for duplicates
+    public boolean isBoardValid(char[][] b, int row, int col) {
+        Set<Character> set = new HashSet<>();
+        for (int i = row; i < row + 3; i++) {
+            for (int j = col; j < col + 3; j++) {
+                if (b[i][j] != '.' && set.contains(b[i][j]))
+                    return false;
+                else if (b[i][j] != '.' && !set.contains(b[i][j]))
+                    set.add(b[i][j]);
             }
         }
 
-        return true; 
+        return true;
     }
 }
