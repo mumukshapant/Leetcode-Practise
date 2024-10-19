@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/mumukshapant/leetcode-practise/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/mumukshapant/leetcode-practise/tree/master/0283-move-zeroes) |
+| [0392-is-subsequence](https://github.com/mumukshapant/leetcode-practise/tree/master/0392-is-subsequence) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/mumukshapant/leetcode-practise/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0556-next-greater-element-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0556-next-greater-element-iii) |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/mumukshapant/leetcode-practise/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/mumukshapant/leetcode-practise/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/mumukshapant/leetcode-practise/tree/master/0257-binary-tree-paths) |
+| [0392-is-subsequence](https://github.com/mumukshapant/leetcode-practise/tree/master/0392-is-subsequence) |
 | [0412-fizz-buzz](https://github.com/mumukshapant/leetcode-practise/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/mumukshapant/leetcode-practise/tree/master/0415-add-strings) |
 | [0451-sort-characters-by-frequency](https://github.com/mumukshapant/leetcode-practise/tree/master/0451-sort-characters-by-frequency) |
@@ -183,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/mumukshapant/leetcode-practise/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/mumukshapant/leetcode-practise/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/mumukshapant/leetcode-practise/tree/master/0322-coin-change) |
+| [0392-is-subsequence](https://github.com/mumukshapant/leetcode-practise/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0410-split-array-largest-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/mumukshapant/leetcode-practise/tree/master/0516-longest-palindromic-subsequence) |
 | [0740-delete-and-earn](https://github.com/mumukshapant/leetcode-practise/tree/master/0740-delete-and-earn) |
