@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0415-add-strings](https://github.com/mumukshapant/leetcode-practise/tree/master/0415-add-strings) |
 | [0556-next-greater-element-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0556-next-greater-element-iii) |
 | [1013-fibonacci-number](https://github.com/mumukshapant/leetcode-practise/tree/master/1013-fibonacci-number) |
+| [1086-divisor-game](https://github.com/mumukshapant/leetcode-practise/tree/master/1086-divisor-game) |
 | [1236-n-th-tribonacci-number](https://github.com/mumukshapant/leetcode-practise/tree/master/1236-n-th-tribonacci-number) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/mumukshapant/leetcode-practise/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [2032-largest-odd-number-in-string](https://github.com/mumukshapant/leetcode-practise/tree/master/2032-largest-odd-number-in-string) |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0740-delete-and-earn](https://github.com/mumukshapant/leetcode-practise/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/mumukshapant/leetcode-practise/tree/master/0747-min-cost-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/mumukshapant/leetcode-practise/tree/master/1013-fibonacci-number) |
+| [1086-divisor-game](https://github.com/mumukshapant/leetcode-practise/tree/master/1086-divisor-game) |
 | [1236-n-th-tribonacci-number](https://github.com/mumukshapant/leetcode-practise/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/mumukshapant/leetcode-practise/tree/master/1250-longest-common-subsequence) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
@@ -528,4 +530,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0258-add-digits](https://github.com/mumukshapant/leetcode-practise/tree/master/0258-add-digits) |
+## Brainteaser
+|  |
+| ------- |
+| [1086-divisor-game](https://github.com/mumukshapant/leetcode-practise/tree/master/1086-divisor-game) |
+## Game Theory
+|  |
+| ------- |
+| [1086-divisor-game](https://github.com/mumukshapant/leetcode-practise/tree/master/1086-divisor-game) |
 <!---LeetCode Topics End-->
