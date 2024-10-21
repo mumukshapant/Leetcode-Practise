@@ -167,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/mumukshapant/leetcode-practise/tree/master/0516-longest-palindromic-subsequence) |
 | [0556-next-greater-element-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0556-next-greater-element-iii) |
 | [0812-rotate-string](https://github.com/mumukshapant/leetcode-practise/tree/master/0812-rotate-string) |
+| [1078-remove-outermost-parentheses](https://github.com/mumukshapant/leetcode-practise/tree/master/1078-remove-outermost-parentheses) |
 | [1250-longest-common-subsequence](https://github.com/mumukshapant/leetcode-practise/tree/master/1250-longest-common-subsequence) |
 | [1533-display-table-of-food-orders-in-a-restaurant](https://github.com/mumukshapant/leetcode-practise/tree/master/1533-display-table-of-food-orders-in-a-restaurant) |
 | [2032-largest-odd-number-in-string](https://github.com/mumukshapant/leetcode-practise/tree/master/2032-largest-odd-number-in-string) |
@@ -483,6 +484,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/mumukshapant/leetcode-practise/tree/master/0234-palindrome-linked-list) |
 | [0775-n-ary-tree-preorder-traversal](https://github.com/mumukshapant/leetcode-practise/tree/master/0775-n-ary-tree-preorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/mumukshapant/leetcode-practise/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [1078-remove-outermost-parentheses](https://github.com/mumukshapant/leetcode-practise/tree/master/1078-remove-outermost-parentheses) |
 | [2573-remove-nodes-from-linked-list](https://github.com/mumukshapant/leetcode-practise/tree/master/2573-remove-nodes-from-linked-list) |
 ## Ordered Set
 |  |
