@@ -10,59 +10,44 @@
  * }
  */
 public class Solution {
-    public ListNode getIntersectionNode(ListNode ha, ListNode hb) {
-
-        if(ha==null)
-            return hb; 
-
-        if(hb==null)
-            return ha; 
-
-        //length of ha and hb; 
-        int l1=0; 
-        int  l2=0; 
-        ListNode curra= ha; 
-        ListNode currb= hb; 
-
-        while(curra.next!=null){
-            l1++; 
-            curra=curra.next; 
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        int len1=0,len2=0; 
+        ListNode curr1=headA , curr2=headB; 
+        while(curr1!=null){
+            curr1=curr1.next; len1++; 
+        }while(curr2!=null){
+            curr2=curr2.next; len2++; 
         }
 
-          while(currb.next!=null){
-            l2++; 
-            currb=currb.next; 
+        curr1=headA; 
+        curr2= headB; 
+
+        if(len1>len2){
+            int diff=len1-len2; 
+            while(diff!=0){
+                curr1=curr1.next; 
+                diff--; 
+            }
+        }else{
+                        int diff=len2-len1; 
+
+            while(diff!=0){
+                curr2=curr2.next; 
+                diff--; 
+
+            }
         }
-        System.out.print(l1+" "+l2); 
 
-       if(l1>l2){
-        while(l1!=l2){
-            ha=ha.next; 
-            l1--; 
+
+// Move both pointers forward until they meet
+        while (curr1 != null && curr2 != null) {
+            if (curr1 == curr2) {
+                return curr1; // Intersection found
+            }
+            curr1 = curr1.next;
+            curr2 = curr2.next;
         }
-       }
 
-       if(l1<l2){
-        while(l1!=l2){
-            hb=hb.next; 
-            l2--; 
-        }
-       }
-
-       ListNode t1=ha;
-    ListNode t2=hb;
-
-       while(t1!=null && t2!=null){
-        if(t1==t2)
-            return t1; 
-        else {
-            t1=t1.next; 
-            t2= t2.next; 
-        }
-       }
-       
-
-       return null; 
-        
+        return null;
     }
 }
