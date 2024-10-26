@@ -7,7 +7,7 @@ class Solution {
         int left = 0;
         int len = 0;
 
-        for(int r=0;r<nums.length; r++){
+        for(int r=left;r<nums.length; r++){
 
             //max queue always decreasing
             while(!max.isEmpty() && nums[r]>max.peekLast())
@@ -23,13 +23,13 @@ class Solution {
 
 
             //current window diff exceeds limit? 
-            while(max.peekFirst()- min.peekFirst()  > limit){
+            while(max.peek()- min.peek()  > limit){
 
-                if(max.peekFirst()==nums[left])
-                    max.pollFirst() ;
+                if(max.peek()==nums[left])
+                    max.poll() ;
 
-                if(min.peekFirst()==nums[left])
-                    min.pollFirst(); 
+                if(min.peek()==nums[left])
+                    min.poll(); 
 
                 left++; 
             }
