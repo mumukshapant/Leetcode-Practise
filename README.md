@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1975-minimum-distance-to-the-target-element](https://github.com/mumukshapant/leetcode-practise/tree/master/1975-minimum-distance-to-the-target-element) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/mumukshapant/leetcode-practise/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/mumukshapant/leetcode-practise/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2412-minimum-amount-of-time-to-fill-cups](https://github.com/mumukshapant/leetcode-practise/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
 | [2502-sort-the-people](https://github.com/mumukshapant/leetcode-practise/tree/master/2502-sort-the-people) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/mumukshapant/leetcode-practise/tree/master/2553-total-cost-to-hire-k-workers) |
 | [3081-minimum-array-length-after-pair-removals](https://github.com/mumukshapant/leetcode-practise/tree/master/3081-minimum-array-length-after-pair-removals) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0948-sort-an-array) |
 | [1533-display-table-of-food-orders-in-a-restaurant](https://github.com/mumukshapant/leetcode-practise/tree/master/1533-display-table-of-food-orders-in-a-restaurant) |
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/mumukshapant/leetcode-practise/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
+| [2412-minimum-amount-of-time-to-fill-cups](https://github.com/mumukshapant/leetcode-practise/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
 | [2502-sort-the-people](https://github.com/mumukshapant/leetcode-practise/tree/master/2502-sort-the-people) |
 ## Math
 |  |
@@ -281,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1127-last-stone-weight](https://github.com/mumukshapant/leetcode-practise/tree/master/1127-last-stone-weight) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/mumukshapant/leetcode-practise/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/mumukshapant/leetcode-practise/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
+| [2412-minimum-amount-of-time-to-fill-cups](https://github.com/mumukshapant/leetcode-practise/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
 | [2413-smallest-number-in-infinite-set](https://github.com/mumukshapant/leetcode-practise/tree/master/2413-smallest-number-in-infinite-set) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/mumukshapant/leetcode-practise/tree/master/2553-total-cost-to-hire-k-workers) |
 ## Merge Sort
@@ -473,6 +476,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0410-split-array-largest-sum) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/mumukshapant/leetcode-practise/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [2032-largest-odd-number-in-string](https://github.com/mumukshapant/leetcode-practise/tree/master/2032-largest-odd-number-in-string) |
+| [2412-minimum-amount-of-time-to-fill-cups](https://github.com/mumukshapant/leetcode-practise/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
 | [3081-minimum-array-length-after-pair-removals](https://github.com/mumukshapant/leetcode-practise/tree/master/3081-minimum-array-length-after-pair-removals) |
 ## Quickselect
 |  |
