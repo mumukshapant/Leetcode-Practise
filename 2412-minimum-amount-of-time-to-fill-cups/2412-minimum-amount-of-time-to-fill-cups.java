@@ -1,16 +1,32 @@
 class Solution {
-    public int fillCups(int[] A) {
+    public int fillCups(int[] nums) {
 
-         int mx = 0, sum = 0;
-        for(int a: A) {
-            mx = Math.max(a, mx);
-            sum += a;
+        //ref https://www.youtube.com/watch?v=sAy0Ya2hinw
+
+        //max heap 
+        PriorityQueue<Integer> pq =new PriorityQueue<>(Collections.reverseOrder()); 
+        for(int i:nums)
+            pq.add(i); 
+
+        int res=0; 
+
+        while(!pq.isEmpty()){
+            int first= pq.poll(); 
+            int second = pq.poll(); 
+
+
+            if(first<=0 && second<=0)
+                break;
+
+            first--; 
+            second--; 
+            pq.add(first); 
+            pq.add(second); 
+            res++; 
         }
-        return Math.max(mx, (sum + 1) / 2);
+        return res; 
 
 
-        // sum+1 because if there are odd number of cups, we account for +1 cup 
-        // ( /2 ) because 2 max cups 
-
+        
     }
 }
