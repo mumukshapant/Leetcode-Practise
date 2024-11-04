@@ -199,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0812-rotate-string](https://github.com/mumukshapant/leetcode-practise/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/mumukshapant/leetcode-practise/tree/master/1078-remove-outermost-parentheses) |
 | [1250-longest-common-subsequence](https://github.com/mumukshapant/leetcode-practise/tree/master/1250-longest-common-subsequence) |
+| [1371-minimum-remove-to-make-valid-parentheses](https://github.com/mumukshapant/leetcode-practise/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1533-display-table-of-food-orders-in-a-restaurant](https://github.com/mumukshapant/leetcode-practise/tree/master/1533-display-table-of-food-orders-in-a-restaurant) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/mumukshapant/leetcode-practise/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2032-largest-odd-number-in-string](https://github.com/mumukshapant/leetcode-practise/tree/master/2032-largest-odd-number-in-string) |
@@ -564,6 +565,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0775-n-ary-tree-preorder-traversal](https://github.com/mumukshapant/leetcode-practise/tree/master/0775-n-ary-tree-preorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/mumukshapant/leetcode-practise/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1078-remove-outermost-parentheses](https://github.com/mumukshapant/leetcode-practise/tree/master/1078-remove-outermost-parentheses) |
+| [1371-minimum-remove-to-make-valid-parentheses](https://github.com/mumukshapant/leetcode-practise/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/mumukshapant/leetcode-practise/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2573-remove-nodes-from-linked-list](https://github.com/mumukshapant/leetcode-practise/tree/master/2573-remove-nodes-from-linked-list) |
 ## Ordered Set
