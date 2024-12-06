@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mumukshapant/leetcode-practise/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/mumukshapant/leetcode-practise/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/mumukshapant/leetcode-practise/tree/master/0136-single-number) |
+| [0139-word-break](https://github.com/mumukshapant/leetcode-practise/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/mumukshapant/leetcode-practise/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/mumukshapant/leetcode-practise/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/mumukshapant/leetcode-practise/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/mumukshapant/leetcode-practise/tree/master/0020-valid-parentheses) |
 | [0072-edit-distance](https://github.com/mumukshapant/leetcode-practise/tree/master/0072-edit-distance) |
+| [0139-word-break](https://github.com/mumukshapant/leetcode-practise/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/mumukshapant/leetcode-practise/tree/master/0151-reverse-words-in-a-string) |
 | [0187-repeated-dna-sequences](https://github.com/mumukshapant/leetcode-practise/tree/master/0187-repeated-dna-sequences) |
 | [0205-isomorphic-strings](https://github.com/mumukshapant/leetcode-practise/tree/master/0205-isomorphic-strings) |
@@ -220,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0072-edit-distance](https://github.com/mumukshapant/leetcode-practise/tree/master/0072-edit-distance) |
 | [0118-pascals-triangle](https://github.com/mumukshapant/leetcode-practise/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mumukshapant/leetcode-practise/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0139-word-break](https://github.com/mumukshapant/leetcode-practise/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/mumukshapant/leetcode-practise/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/mumukshapant/leetcode-practise/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/mumukshapant/leetcode-practise/tree/master/0322-coin-change) |
@@ -243,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0041-first-missing-positive](https://github.com/mumukshapant/leetcode-practise/tree/master/0041-first-missing-positive) |
 | [0073-set-matrix-zeroes](https://github.com/mumukshapant/leetcode-practise/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/mumukshapant/leetcode-practise/tree/master/0128-longest-consecutive-sequence) |
+| [0139-word-break](https://github.com/mumukshapant/leetcode-practise/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/mumukshapant/leetcode-practise/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/mumukshapant/leetcode-practise/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/mumukshapant/leetcode-practise/tree/master/0160-intersection-of-two-linked-lists) |
@@ -558,6 +562,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/mumukshapant/leetcode-practise/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/mumukshapant/leetcode-practise/tree/master/0139-word-break) |
 | [1013-fibonacci-number](https://github.com/mumukshapant/leetcode-practise/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/mumukshapant/leetcode-practise/tree/master/1236-n-th-tribonacci-number) |
 ## Stack
@@ -617,6 +622,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/mumukshapant/leetcode-practise/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/mumukshapant/leetcode-practise/tree/master/0139-word-break) |
 ## String Matching
 |  |
 | ------- |
