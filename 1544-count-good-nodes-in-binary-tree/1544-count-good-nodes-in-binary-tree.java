@@ -14,29 +14,25 @@
  * }
  */
 class Solution {
+    int count=0; 
 
-//global var
-    public int count=0; 
-   
     public int goodNodes(TreeNode root) {
-        //ref : https://www.youtube.com/watch?v=EPmPPrw8pmY&t=159s
-
-
         helper(root, root.val); 
-
         return count; 
 
-
     }
-    public void helper(TreeNode node, int max){
+    private void helper(TreeNode node, int currmax){
+        
         if(node==null)
             return; 
-        if(node.val>=max)
-        {
-            max=node.val; 
+
+        if(node.val>=currmax){ 
             count++; 
+            currmax= node.val; 
         }
-        helper(node.left, max); 
-        helper(node.right, max); 
+
+        helper(node.left, currmax); 
+        helper(node.right, currmax); 
+
     }
 }
