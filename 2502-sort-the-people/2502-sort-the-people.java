@@ -1,21 +1,19 @@
 class Solution {
     public String[] sortPeople(String[] names, int[] nums) {
-       // String[] temp = new String[nums.length]; 
+Map<Integer, String> map = new HashMap<>(); 
         for(int i=0;i<nums.length; i++){
-            for(int j=0;j<nums.length; j++){
-                if(nums[i]>nums[j]){
-
-                    int temp= nums[i]; 
-                    nums[i]= nums[j]; 
-                    nums[j]= temp; 
-
-
-                    String t= names[i]; 
-                    names[i]=names[j]; 
-                    names[j]=t; 
-                }
-            }
+            map.put(nums[i], names[i]); 
         }
-        return names; 
+        Arrays.sort(nums); 
+        String[] temp = new String[nums.length]; 
+        
+        //descending order
+        int j=0; 
+        for(int i=nums.length-1;i>=0;i--){
+            
+            temp[j++]=map.get(nums[i]);
+
+        }
+        return temp; 
     }
 }
