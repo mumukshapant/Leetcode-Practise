@@ -1,37 +1,41 @@
 class Solution {
     public int shipWithinDays(int[] nums, int days) {
+        //binary search
+        int low=0 ; 
+        int high=0; 
 
-        int low = Integer.MIN_VALUE;
-        int high = 0;
-
-        for (int i = 0; i < nums.length; i++) {
-            high += nums[i];
-            low = Math.max(nums[i], low);
+        for(int i=0 ;i<nums.length; i++){
+            low= Math.max(nums[i], low); 
+            high+=nums[i]; 
         }
-
-        int res = high;
-
-        while (low <= high) {
-            int mid = low + (high - low) / 2; // curr selected capacity
-            int sum = 0;
-            int reqdays = 1;
-
-            for (int i = 0; i < nums.length; i++) {
-                if (sum + nums[i] <= mid) {
-                    sum += nums[i];
-                } else {
+        int ans=0; 
+        while(low<=high){
+            int reqdays=1; 
+            int totalwt=0; 
+            int mid= low+(high-low)/2 ; //this is the minimum capacity
+            
+            for(int i=0;i<nums.length; i++){
+                //totalwt += nums[i]; 
+                if(totalwt+nums[i]>mid)
+                {
                     reqdays++;
-                    sum = nums[i];
+                    totalwt=0; 
                 }
+                totalwt+=nums[i]; 
             }
 
-            if (reqdays <= days) {
-                high = mid - 1;
-                res = mid;
-            } else {
-                low = mid + 1;
-            }
+
+              if(reqdays>days){
+                    low=mid+1; 
+
+                }else if(reqdays<=days)
+                {
+                    ans= mid; 
+                    high= mid-1; 
+                }
+            
         }
-        return res;
+
+        return ans; 
     }
 }
