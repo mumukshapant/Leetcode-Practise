@@ -1,38 +1,35 @@
 class Solution {
     public void rotate(int[][] mat) {
-        int row= mat.length; 
-        int col= mat[0].length; 
+        transpose(mat);
 
-        for(int i=0;i<row;i++){
-            for (int j=0;j<=i;j++){
-               int temp=mat[i][j];
+        // now reverse each row 
+        for(int i=0;i<mat.length;i++){
+        reverserow(mat[i]); 
+        }
+       
+        return ;
+        
+    }
+    private void reverserow(int[] nums){
+
+        int i=0, j=nums.length-1; 
+        
+        while(i<j){
+            int temp= nums[i]; 
+            nums[i]=nums[j]; 
+            nums[j]=temp; 
+            i++; 
+            j--; 
+        }
+    }
+    private void transpose (int[][] mat ) 
+    {
+        for(int i=0;i<mat.length;i++){
+            for(int j=i;j<mat[0].length;j++){
+                int temp=mat[i][j];
                 mat[i][j]=mat[j][i];
                 mat[j][i]=temp;
             }
         }
-
-        //reverse by row 
-       
-        for(int i=0;i<row; i++){
-
-             int start=0; 
-         
-        int end= row-1; 
-            while(start<end){
-                int temp= mat[i][start] ; 
-                mat[i][start]=mat[i][end] ; 
-                mat[i][end] =temp;
-
-                start++; 
-                end--;
-
-            }
-        }
-
-        
     }
-    // public void transpose(int[][] mat){
-        
-    // }
-
 }
