@@ -1,25 +1,27 @@
 class Solution {
-    public int[] plusOne(int[] digits) {
+    public int[] plusOne(int[] nums) {
+        int n= nums.length; 
 
-        //2 cases : 
-       // 1. if last digit + 1 >9 
+        // if last digit is not 9 , then just make a plus one 
+        if(nums[n-1]!=9){
+            nums[n-1]=nums[n-1]+1; 
+            return nums; 
+        }else{
+            int[] res= new int[n+1]; 
+            if(nums[0]!=9)
+                {  
+                    int temp= nums[0]+1; 
+                    Arrays.fill(nums,0); 
+                    nums[0]=temp; 
+                    return nums; 
+                    }
 
-       for(int i=digits.length-1;i>=0; i--){
-        if(digits[i]+1!=10){
-             digits[i]+=1;
-             return digits;  
+            else    
+                res[0]=1; 
+            return res; 
 
         }
-        digits[i]=0; 
-        
 
-       
-       } 
-
-       int[] newdigits = new int[digits.length+1]; 
-        newdigits[0]=1; 
-
-       return newdigits; 
         
     }
 }
