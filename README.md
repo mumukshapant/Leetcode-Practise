@@ -302,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/mumukshapant/leetcode-practise/tree/master/0053-maximum-subarray) |
 | [0148-sort-list](https://github.com/mumukshapant/leetcode-practise/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/mumukshapant/leetcode-practise/tree/master/0169-majority-element) |
+| [0191-number-of-1-bits](https://github.com/mumukshapant/leetcode-practise/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/mumukshapant/leetcode-practise/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/mumukshapant/leetcode-practise/tree/master/0347-top-k-frequent-elements) |
@@ -413,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/mumukshapant/leetcode-practise/tree/master/0136-single-number) |
 | [0187-repeated-dna-sequences](https://github.com/mumukshapant/leetcode-practise/tree/master/0187-repeated-dna-sequences) |
+| [0191-number-of-1-bits](https://github.com/mumukshapant/leetcode-practise/tree/master/0191-number-of-1-bits) |
 | [0268-missing-number](https://github.com/mumukshapant/leetcode-practise/tree/master/0268-missing-number) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/mumukshapant/leetcode-practise/tree/master/1786-count-the-number-of-consistent-strings) |
 ## Linked List
