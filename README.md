@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/mumukshapant/leetcode-practise/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/mumukshapant/leetcode-practise/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0410-split-array-largest-sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/mumukshapant/leetcode-practise/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/mumukshapant/leetcode-practise/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0456-132-pattern](https://github.com/mumukshapant/leetcode-practise/tree/master/0456-132-pattern) |
 | [0485-max-consecutive-ones](https://github.com/mumukshapant/leetcode-practise/tree/master/0485-max-consecutive-ones) |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/mumukshapant/leetcode-practise/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/mumukshapant/leetcode-practise/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/mumukshapant/leetcode-practise/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0435-non-overlapping-intervals](https://github.com/mumukshapant/leetcode-practise/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/mumukshapant/leetcode-practise/tree/master/0451-sort-characters-by-frequency) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/mumukshapant/leetcode-practise/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -237,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/mumukshapant/leetcode-practise/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/mumukshapant/leetcode-practise/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/mumukshapant/leetcode-practise/tree/master/0435-non-overlapping-intervals) |
 | [0516-longest-palindromic-subsequence](https://github.com/mumukshapant/leetcode-practise/tree/master/0516-longest-palindromic-subsequence) |
 | [0740-delete-and-earn](https://github.com/mumukshapant/leetcode-practise/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/mumukshapant/leetcode-practise/tree/master/0747-min-cost-climbing-stairs) |
@@ -530,6 +533,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/mumukshapant/leetcode-practise/tree/master/0011-container-with-most-water) |
 | [0055-jump-game](https://github.com/mumukshapant/leetcode-practise/tree/master/0055-jump-game) |
 | [0410-split-array-largest-sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/mumukshapant/leetcode-practise/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/mumukshapant/leetcode-practise/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [2032-largest-odd-number-in-string](https://github.com/mumukshapant/leetcode-practise/tree/master/2032-largest-odd-number-in-string) |
 | [2412-minimum-amount-of-time-to-fill-cups](https://github.com/mumukshapant/leetcode-practise/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
