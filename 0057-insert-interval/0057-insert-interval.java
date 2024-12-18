@@ -1,34 +1,31 @@
 class Solution {
-    public int[][] insert(int[][] intervals, int[] newInterval) {
+    public int[][] insert(int[][] nums, int[] newinterval) {
 
+        int[] curr = newinterval; // Start with the new interval
+        Arrays.sort(nums, (a, b) -> Integer.compare(a[0], b[0])); // Sort intervals
 
-        List<int[]> allIntervals = new ArrayList<>(Arrays.asList(intervals));
+        List<int[]> ans = new ArrayList<>();
+        for (int i = 0; i < nums.length; i++) {
 
-
-        allIntervals.add(newInterval);
-
-        allIntervals.sort(Comparator.comparingInt(a -> a[0]));
-
-        List<int[]> res = new ArrayList<>();
-
-
-        int[] prev = allIntervals.get(0);
-        res.add(prev);
-
-        for (int[] interval : allIntervals) {
-            int currentEnd = prev[1];
-            int nextBegin = interval[0];
-            int nextEnd = interval[1];
-
-
-            if (currentEnd >= nextBegin) {
-                prev[1] = Math.max(currentEnd, nextEnd);
-            } else {
-                prev = interval;
-                res.add(prev);
+            // If current interval is completely before `newInterval`
+            if (nums[i][1] < curr[0]) {
+                ans.add(nums[i]);
+            }
+            // If current interval is completely after `newInterval`
+            else if (nums[i][0] > curr[1]) {
+                ans.add(curr); // Add the merged interval
+                curr = nums[i]; // Move to the next interval
+            }
+            // If intervals overlap, merge them
+            else {
+                curr[0] = Math.min(curr[0], nums[i][0]); // Update start of merged interval
+                curr[1] = Math.max(curr[1], nums[i][1]); // Update end of merged interval
             }
         }
 
-        return res.toArray(new int[res.size()][]);
+        // Add the last interval
+        ans.add(curr);
+
+        return ans.toArray(new int[ans.size()][]);
     }
 }
