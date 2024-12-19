@@ -1,36 +1,38 @@
 class Solution {
     public int minimumOperations(int[] nums) {
 
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
+//smallest element --1 
+boolean flag= true; 
+int count=0; 
 
-        int count = 0;
-        boolean check = true;
+PriorityQueue<Integer> pq= new PriorityQueue<>();
+while(flag){
+        for(int i=0;i<nums.length ;i++)
+            {
+                if(nums[i]!=0)
+                    pq.add(nums[i]); 
+                
+            } 
 
-        while (check) {
-            for (int i : nums)
-                {
-                    if(i!=0)
-                        pq.add(i) ;
-                }
 
-            if (pq.isEmpty()) {
-                check = false;
+            if(pq.isEmpty())
+            {
+                flag=false; 
                 break;
             }
 
-            int first = pq.peek();
-            for (int i = 0; i < nums.length; i++) {
-                if (nums[i] != 0) {
-                    nums[i] -= first;
-                }
+            int x= pq.poll(); //1 
+            for(int i=0;i<nums.length;i++){
+                if(nums[i]!=0)
+                    nums[i]-=x;
             }
-            count++;
 
-            if (!pq.isEmpty())
-                pq.clear();
+            count++; 
 
-        }
-        return count;
-
+            pq.clear(); 
+            
+            }
+            return count; 
+        
     }
 }
