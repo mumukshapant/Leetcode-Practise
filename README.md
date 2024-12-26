@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/mumukshapant/leetcode-practise/tree/master/0036-valid-sudoku) |
 | [0040-combination-sum-ii](https://github.com/mumukshapant/leetcode-practise/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/mumukshapant/leetcode-practise/tree/master/0041-first-missing-positive) |
+| [0042-trapping-rain-water](https://github.com/mumukshapant/leetcode-practise/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/mumukshapant/leetcode-practise/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/mumukshapant/leetcode-practise/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/mumukshapant/leetcode-practise/tree/master/0053-maximum-subarray) |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/mumukshapant/leetcode-practise/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/mumukshapant/leetcode-practise/tree/master/0027-remove-element) |
+| [0042-trapping-rain-water](https://github.com/mumukshapant/leetcode-practise/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/mumukshapant/leetcode-practise/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/mumukshapant/leetcode-practise/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/mumukshapant/leetcode-practise/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -235,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/mumukshapant/leetcode-practise/tree/master/0005-longest-palindromic-substring) |
+| [0042-trapping-rain-water](https://github.com/mumukshapant/leetcode-practise/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/mumukshapant/leetcode-practise/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/mumukshapant/leetcode-practise/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/mumukshapant/leetcode-practise/tree/master/0062-unique-paths) |
@@ -612,6 +615,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/mumukshapant/leetcode-practise/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/mumukshapant/leetcode-practise/tree/master/0042-trapping-rain-water) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/mumukshapant/leetcode-practise/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0234-palindrome-linked-list](https://github.com/mumukshapant/leetcode-practise/tree/master/0234-palindrome-linked-list) |
 | [0456-132-pattern](https://github.com/mumukshapant/leetcode-practise/tree/master/0456-132-pattern) |
@@ -643,6 +647,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/mumukshapant/leetcode-practise/tree/master/0042-trapping-rain-water) |
 | [0456-132-pattern](https://github.com/mumukshapant/leetcode-practise/tree/master/0456-132-pattern) |
 | [2573-remove-nodes-from-linked-list](https://github.com/mumukshapant/leetcode-practise/tree/master/2573-remove-nodes-from-linked-list) |
 ## Geometry
