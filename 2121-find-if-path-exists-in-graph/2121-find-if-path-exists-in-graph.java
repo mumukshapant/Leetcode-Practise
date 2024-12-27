@@ -1,40 +1,51 @@
 class Solution {
-    //ref : https://www.youtube.com/watch?v=icrP7cVgLuM
-    public boolean validPath(int n, int[][] edges, int s, int des) {
-        List<Integer>[] graph = new ArrayList[n]; 
+    public boolean validPath(int n, int[][] edges, int s, int d) {
+
+        //n is the number of nodes
+        List<List<Integer>> graph=new ArrayList<>();
+        
+        for(int i=0;i<n;i++){
+            graph.add( new ArrayList<>()  );
+        }
+
+        for(int[] e : edges){
+            int u= e[0]; 
+            int v= e[1];
+
+            graph.get(u).add(v); 
+            graph.get(v).add(u); 
+        }
+        Queue<Integer> q= new LinkedList<>(); 
         boolean[] visited= new boolean[n]; 
 
-        for(int i=0;i<graph.length; i++)
-            graph[i]= new ArrayList<>(); 
-        
-        for(int[] e: edges){
-            int v1= e[0]; 
-            int v2= e[1]; 
+        visited[s]=true; 
+        q.add(s); 
+        while(!q.isEmpty()){
+            int curr= q.poll();  // 0 
 
-            graph[v1].add(v2); // add v2 to adj list of v1 
-            graph[v2].add(v1); // add v1 to adj list of v2 cus Bi Directional
+            if(curr==d)
+                return true; 
+            
+            //now iterate the adjacency list 
+            for(int node:graph.get(curr)){
+                // curr=[0]
 
-        }
+                // in the graph adjacency list : 
+                // vertex 0 : [ 1 ]
+                // vertex 1 : [ 0, 2 ]
+                // vertex 2 : [ 1 ]
 
-        return isPath(graph, s, des, visited); //adj list, source, dest, visited
-    }
+                //if curr=0, then node will be [1]
 
-    private boolean isPath(List<Integer>[] graph, int s, int d, boolean[] visited){
-        if(s==d)
-            return true; 
-
-        visited[s]= true; 
-
-        for(int nbr:graph[s]){
-       
-            if(visited[nbr]==false) //neighbor is not yet visited
-            {
-                if(isPath(graph, nbr, d, visited))
-                    return true; // and there exists a path bw nbr and destination
+                if( visited[node] ==false )// if node is not visited
+                {
+                    visited[node]=true; 
+                    q.add(node); 
+                }
             }
         }
-        return false; 
-    }
 
-    
+        return false; 
+        
+    }
 }
