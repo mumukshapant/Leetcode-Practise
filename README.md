@@ -496,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/mumukshapant/leetcode-practise/tree/master/0257-binary-tree-paths) |
 | [0437-path-sum-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0437-path-sum-iii) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0733-flood-fill](https://github.com/mumukshapant/leetcode-practise/tree/master/0733-flood-fill) |
 | [0775-n-ary-tree-preorder-traversal](https://github.com/mumukshapant/leetcode-practise/tree/master/0775-n-ary-tree-preorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/mumukshapant/leetcode-practise/tree/master/0776-n-ary-tree-postorder-traversal) |
@@ -514,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/mumukshapant/leetcode-practise/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/mumukshapant/leetcode-practise/tree/master/0322-coin-change) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0733-flood-fill](https://github.com/mumukshapant/leetcode-practise/tree/master/0733-flood-fill) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -535,6 +537,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/mumukshapant/leetcode-practise/tree/master/0257-binary-tree-paths) |
 | [0437-path-sum-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0437-path-sum-iii) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0775-n-ary-tree-preorder-traversal](https://github.com/mumukshapant/leetcode-practise/tree/master/0775-n-ary-tree-preorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/mumukshapant/leetcode-practise/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0783-search-in-a-binary-search-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0783-search-in-a-binary-search-tree) |
@@ -555,6 +558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/mumukshapant/leetcode-practise/tree/master/0257-binary-tree-paths) |
 | [0437-path-sum-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0437-path-sum-iii) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/mumukshapant/leetcode-practise/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0904-leaf-similar-trees](https://github.com/mumukshapant/leetcode-practise/tree/master/0904-leaf-similar-trees) |
