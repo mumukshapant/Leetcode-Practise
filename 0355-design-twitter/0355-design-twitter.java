@@ -1,15 +1,11 @@
-// ref : https://www.youtube.com/watch?v=tH051S6aM5M
+class Tweet implements Comparable<Tweet>{
 
-//represents 1 tweet 
-class Tweet implements Comparable<Tweet> {
-
-    // ek tweet ke pass kya kya hoga -- time,
+    int tweetid;
     int time;
-    int tweetId;
 
-    Tweet(int t, int id) {
-        time = t;
-        tweetId=id;
+    public Tweet(int tweetid, int time) {
+        this.tweetid = tweetid;
+        this.time = time;
     }
 
     public int compareTo(Tweet that) {
@@ -18,110 +14,120 @@ class Tweet implements Comparable<Tweet> {
 }
 
 class User {
-    int userId;
+    int uid;
+    Set<Integer> follower;
+    List<Tweet> listoftweet;
 
-    Set<Integer> followers;
-    List<Tweet> tweets;
-
-    User(int userId) {
-        this.userId = userId;
-        followers = new HashSet<>();
-        tweets = new LinkedList<>();
+    public User(int uid) {
+        this.uid = uid;
+        follower = new HashSet<>();
+        listoftweet = new LinkedList<>();
 
     }
 
-    public void addTweet(Tweet t) {
-        tweets.add(t); // insertion at the end
+    public void addTweet(Tweet t ){
+    // add tweet "t" to the list of tweets "listoftweet" created inside User class
+    listoftweet.add(t); 
     }
 
-    public void addFollower(int followeeId) {
-        followers.add(followeeId);
+    public void removeTweet(Tweet t){
+        listoftweet.remove(t); 
     }
 
-    public void removeFollower(int followeeId) {
-        followers.remove(followeeId);
+    public void addFollower(int fid){
+        follower.add(fid); 
+    }
+
+    public void removeFollower(int fid){
+        follower.remove(fid); 
     }
 }
 
 class Twitter {
-
+    int time; 
     Map<Integer, User> usermap;
-    int timecounter;
+
 
     public Twitter() {
-
-        usermap = new HashMap<>();
-        timecounter = 0;
-
+        time = 0;
+        usermap = new HashMap<>(); 
     }
 
-    public void postTweet(int userId, int tweetId) {
+    public void postTweet(int uid, int tid) {
 
-        timecounter++;
-
-        if (!usermap.containsKey(userId)) {
-            usermap.put(userId, new User(userId));
+        time++;
+        if (!usermap.containsKey(uid)) {
+            usermap.put(uid, new User(uid));
         }
-        User user = usermap.get(userId);
-        user.addTweet(new Tweet(timecounter, tweetId));
+
+        User user = usermap.get(uid);
+        user.addTweet(new Tweet(tid, time)); // Tweet t -- time, tid;}
 
     }
 
-    public List<Integer> getNewsFeed(int userId) {
+    public List<Integer> getNewsFeed(int uid) {
+        /**
+        1. 10 most recent tweets
+        2. self + followers
+        3. ordered most recent to least recent
+         */
 
-          if(!usermap.containsKey(userId) ) {
+        if(!usermap.containsKey(uid) ) {
             return new ArrayList<>(); 
           }
-
-          PriorityQueue<Tweet> pq= new PriorityQueue<>(); 
-
-          User user= usermap.get(userId); 
-
-          //followers tweets
-          for(int followerId: user.followers){
-            
-            int count=0; 
-
-            for(Tweet t: usermap.get(followerId).tweets){
-
-                pq.offer(t); 
-                count++; 
-                if(count>10)
-                    break; 
-
-            }
-          }
-
-          //self tweets
-  
-int count=0; 
-            for(Tweet t: user.tweets){
-
-                pq.offer(t); 
-                count++; 
-                if(count>10)
-                    break; 
-
-            }
-          
-          List<Integer> res= new ArrayList<>(); 
-          int index=0; 
-          while(!pq.isEmpty() && index<10){
-
-            Tweet tweet= pq.poll(); 
-            res.add(tweet.tweetId); 
-            index++; 
-
-          }
-
-return res; 
         
+        PriorityQueue<Tweet> pq = new PriorityQueue<>(); // pq of TWEET
+        User user = usermap.get(uid);
+       
+       
+
+        //tweets of followers
+        for(int fid: user.follower){
+            int count=0;
+        for(Tweet t: usermap.get(fid).listoftweet){
+            pq.offer(t); 
+
+            // IF WE DONT Create Comparable interface ----- the pq expects the elements being added to implement the Comparable interface. However, your Tweet class does not implement Comparable, resulting in a ClassCastException. 
+            // you need to ensure that your Tweet class implements the Comparable interface and provides an implementation for the compareTo method. 
+
+
+
+            count++; 
+            if(count>10)
+                break;
+            
+        }
+    }
+
+     //self 
+        int count=0; 
+        for(Tweet t : user.listoftweet){
+            pq.offer(t); 
+            count++; 
+
+            if(count>10) 
+                break; 
+
+        }
+
+
+        List<Integer> res= new ArrayList<>(); 
+
+        int i=0; 
+        while(!pq.isEmpty() && i<10){
+            Tweet t = pq.poll(); 
+            res.add(t.tweetid); 
+            i++; 
+        
+    }
+
+        return res; 
 
     }
 
     public void follow(int followerId, int followeeId) {
 
-        if (!usermap.containsKey(followerId)) {
+         if (!usermap.containsKey(followerId)) {
             usermap.put(followerId, new User(followerId));
         }
 
@@ -131,25 +137,18 @@ return res;
 
         User user = usermap.get(followerId);
         user.addFollower(followeeId);
+        
 
     }
 
     public void unfollow(int followerId, int followeeId) {
 
-         if(!usermap.containsKey(followerId) || !usermap.containsKey(followeeId) )
+        if(!usermap.containsKey(followerId) || !usermap.containsKey(followeeId) )
             return ; 
 
-        User user= usermap.get(followerId); 
-        user.removeFollower(followeeId); 
-
+        User user = usermap.get(followerId);
+        user.removeFollower(followeeId);
+        
     }
+    
 }
-
-/**
- * Your Twitter object will be instantiated and called as such:
- * Twitter obj = new Twitter();
- * obj.postTweet(userId,tweetId);
- * List<Integer> param_2 = obj.getNewsFeed(userId);
- * obj.follow(followerId,followeeId);
- * obj.unfollow(followerId,followeeId);
- */
