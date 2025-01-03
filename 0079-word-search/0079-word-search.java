@@ -1,52 +1,60 @@
 class Solution {
+
     boolean[][] visited; 
-    public boolean exist(char[][] board, String s) {
 
-        int x=board.length, y= board[0].length; 
-        visited= new boolean[x][y];
+    public boolean exist(char[][] b, String w) {
+        int m= b.length; 
+        int n= b[0].length; 
+        visited = new boolean[m][n];
 
-     for(int i=0;i<x;i++){
-        for(int j=0;j<y;j++){
-         if(search(board, s, i, j,0 ))
-            return true; 
+
+        for (int r = 0; r < m; r++) {
+            for (int c = 0; c < n; c++) {
+                if (backtrack(b, w, 0, directions, r, c))
+                    return true; 
+            }
         }
-     }   
-
-     return false; 
+        return false; 
     }
 
-    boolean search(char[][] board, String s, int row, int col, int index) {
+    int[][] directions= new int[][]{{-1,0},{1,0},{0,-1},{0,1}};
 
+    private boolean backtrack(char[][]b, String w, int index, int[][] directions, int r, int c){
+        int m= b.length; 
+        int n= b[0].length;
 
-    if(index==s.length()) //found the full word
-        return true;
+        //base condition
+        if(index==w.length())
+            return true; 
+
+        if(r>=m || c>=n || r<0 || c<0 || b[r][c]!=w.charAt(index) || visited[r][c] ) 
+                return false ; 
+
+        visited[r][c]=true; 
         
 
-    // If word is already visited, or curr character is not same, or row col out of bounds, return FALSE. 
-    if(row<0 || row>=board.length || col<0 || col>=board[0].length ||
-    s.charAt(index)!=board[row][col]|| visited[row][col])    
-        return false; 
+        for(int[] d: directions){
+            int newrow= d[0]+r; 
+            int newcol= d[1]+c; 
 
+            if (backtrack(b, w, index + 1, directions, newrow, newcol)) 
+                return true;
+        }
 
-    visited[row][col] = true;
-
-
-// search 4 directions: Left, Right, Up, Down
-    if ((search(board, s, row + 1, col, index + 1)) ||
-            (search(board, s, row-1, col , index + 1)) ||
-            (search(board, s, row, col+1, index + 1)) ||
-            (search(board, s, row, col-1, index + 1))) {
-      return true;
+         visited[r][c] = false; // Backtrack: unmark the cell
+        return false;
+        
     }
-
-    visited[row][col] = false;
-
-
-    return false;
-  }
-
-
-
-
-
 }
+
+
+
+
+
+
+
+  // find the first letter of the word ( say A )
+        // check all 4 directions from A 
+        // if the next letter of the word, ie (B) is found, go to that 
+        // repeat same for B 
+        // if the next letter is not found, backtrack 
