@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/mumukshapant/leetcode-practise/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/mumukshapant/leetcode-practise/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/mumukshapant/leetcode-practise/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/mumukshapant/leetcode-practise/tree/master/0079-word-search) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/mumukshapant/leetcode-practise/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/mumukshapant/leetcode-practise/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0088-merge-sorted-array) |
@@ -212,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0043-multiply-strings](https://github.com/mumukshapant/leetcode-practise/tree/master/0043-multiply-strings) |
 | [0072-edit-distance](https://github.com/mumukshapant/leetcode-practise/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/mumukshapant/leetcode-practise/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/mumukshapant/leetcode-practise/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/mumukshapant/leetcode-practise/tree/master/0091-decode-ways) |
 | [0139-word-break](https://github.com/mumukshapant/leetcode-practise/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/mumukshapant/leetcode-practise/tree/master/0151-reverse-words-in-a-string) |
@@ -387,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/mumukshapant/leetcode-practise/tree/master/0054-spiral-matrix) |
 | [0064-minimum-path-sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/mumukshapant/leetcode-practise/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/mumukshapant/leetcode-practise/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/mumukshapant/leetcode-practise/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/mumukshapant/leetcode-practise/tree/master/0240-search-a-2d-matrix-ii) |
 | [0289-game-of-life](https://github.com/mumukshapant/leetcode-practise/tree/master/0289-game-of-life) |
@@ -492,6 +495,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/mumukshapant/leetcode-practise/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0101-symmetric-tree) |
@@ -632,6 +636,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/mumukshapant/leetcode-practise/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/mumukshapant/leetcode-practise/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/mumukshapant/leetcode-practise/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/mumukshapant/leetcode-practise/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/mumukshapant/leetcode-practise/tree/master/0090-subsets-ii) |
 | [0257-binary-tree-paths](https://github.com/mumukshapant/leetcode-practise/tree/master/0257-binary-tree-paths) |
 ## Memoization
