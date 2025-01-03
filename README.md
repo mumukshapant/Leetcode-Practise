@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/mumukshapant/leetcode-practise/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/mumukshapant/leetcode-practise/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/mumukshapant/leetcode-practise/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/mumukshapant/leetcode-practise/tree/master/0078-subsets) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/mumukshapant/leetcode-practise/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/mumukshapant/leetcode-practise/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0088-merge-sorted-array) |
@@ -443,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/mumukshapant/leetcode-practise/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/mumukshapant/leetcode-practise/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/mumukshapant/leetcode-practise/tree/master/0136-single-number) |
 | [0187-repeated-dna-sequences](https://github.com/mumukshapant/leetcode-practise/tree/master/0187-repeated-dna-sequences) |
@@ -629,6 +631,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/mumukshapant/leetcode-practise/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0040-combination-sum-ii](https://github.com/mumukshapant/leetcode-practise/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/mumukshapant/leetcode-practise/tree/master/0046-permutations) |
+| [0078-subsets](https://github.com/mumukshapant/leetcode-practise/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/mumukshapant/leetcode-practise/tree/master/0090-subsets-ii) |
 | [0257-binary-tree-paths](https://github.com/mumukshapant/leetcode-practise/tree/master/0257-binary-tree-paths) |
 ## Memoization
