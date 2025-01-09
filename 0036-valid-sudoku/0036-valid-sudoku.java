@@ -1,59 +1,57 @@
 class Solution {
-    // we check row for duplicates -- rowset
-    // col for duplicates -- colset
-    // each box for duplicates--isBoardValid
-
     public boolean isValidSudoku(char[][] b) {
-        if(b.length>9 || b[0].length>9)
-        return false; 
 
-        Set<Character> rowset; 
-        Set<Character> colset; 
-
-        for(int i=0;i<9; i=i+3)
-            for(int j=0;j<9 ; j=j+3)
-                if(!isBoardValid(b, i, j))
+        for (int row = 0; row < 9; row++) {            
+            Set<Character> rowset= new HashSet<>();
+            for (int i = 0; i < 9; i++) {
+                if(b[row][i]=='.')
+                    continue ;
+                
+                if(rowset.contains(b[row][i]))
                     return false; 
-
-        for(int i=0;i<9; i++){
-            rowset = new HashSet<>(); 
-            colset=new HashSet<>(); 
-            for(int j=0;j<9;j++){
-
-                //rows 
-                if(b[i][j] != '.' && rowset.contains(b[i][j]))  
-                    return false; 
-                else if (b[i][j] != '.' && !rowset.contains(b[i][j]))
-                    rowset.add(b[i][j]);
-
-                //columns
-                if(b[j][i] != '.' && colset.contains(b[j][i]))  
-                    return false; 
-                else if (b[j][i] != '.' && !colset.contains(b[j][i]))
-                    colset.add(b[j][i]);
-
+                rowset.add(b[row][i]);
             }
         }
-    
 
+
+          for (int col = 0; col < 9; col++) {            
+            Set<Character> colset= new HashSet<>();
+            for (int i = 0; i < 9; i++) {
+                if(b[i][col]=='.')
+                    continue ;
+                
+                if(colset.contains(b[i][col]))
+                    return false; 
+                colset.add(b[i][col]);
+            }
+        }
+
+        for(int square= 0; square<9;square++){
+            Set<Character> seen= new HashSet<>();
+
+            for (int i = 0; i < 3; i++) {
+                for(int j=0; j<3; j++){
+
+                    int row= (square/3)*3 + i ; 
+                    int col= (square%3)*3 +j; 
+
+                    if(b[row][col]=='.')
+                        continue; 
+                    
+                    if (seen.contains(b[row][col])) 
+                        return false;
+
+                    seen.add(b[row][col]);
+                }
+            }
+        }
 
 
     return true; 
 
-    }
 
-    // checking the box for duplicates
-    public boolean isBoardValid(char[][] b, int row, int col) {
-        Set<Character> set = new HashSet<>();
-        for (int i = row; i < row + 3; i++) {
-            for (int j = col; j < col + 3; j++) {
-                if (b[i][j] != '.' && set.contains(b[i][j]))
-                    return false;
-                else if (b[i][j] != '.' && !set.contains(b[i][j]))
-                    set.add(b[i][j]);
-            }
-        }
-
-        return true;
+    // We will have a unique hashset for every single row 
+    
+    // row = row%3  WRONG because if row 2 col 2 then 2%3 gives 2 not 0 . therfore integer division . not mod. 
     }
 }
