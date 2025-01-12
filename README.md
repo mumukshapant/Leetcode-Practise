@@ -508,6 +508,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/mumukshapant/leetcode-practise/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/mumukshapant/leetcode-practise/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/mumukshapant/leetcode-practise/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -530,6 +531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/mumukshapant/leetcode-practise/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/mumukshapant/leetcode-practise/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/mumukshapant/leetcode-practise/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/mumukshapant/leetcode-practise/tree/master/0322-coin-change) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -618,6 +620,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/mumukshapant/leetcode-practise/tree/master/0207-course-schedule) |
 | [1916-find-center-of-star-graph](https://github.com/mumukshapant/leetcode-practise/tree/master/1916-find-center-of-star-graph) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mumukshapant/leetcode-practise/tree/master/2121-find-if-path-exists-in-graph) |
 ## Simulation
@@ -749,4 +752,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/mumukshapant/leetcode-practise/tree/master/0789-kth-largest-element-in-a-stream) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/mumukshapant/leetcode-practise/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
