@@ -230,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/mumukshapant/leetcode-practise/tree/master/0516-longest-palindromic-subsequence) |
 | [0556-next-greater-element-iii](https://github.com/mumukshapant/leetcode-practise/tree/master/0556-next-greater-element-iii) |
 | [0812-rotate-string](https://github.com/mumukshapant/leetcode-practise/tree/master/0812-rotate-string) |
+| [1023-time-based-key-value-store](https://github.com/mumukshapant/leetcode-practise/tree/master/1023-time-based-key-value-store) |
 | [1078-remove-outermost-parentheses](https://github.com/mumukshapant/leetcode-practise/tree/master/1078-remove-outermost-parentheses) |
 | [1250-longest-common-subsequence](https://github.com/mumukshapant/leetcode-practise/tree/master/1250-longest-common-subsequence) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/mumukshapant/leetcode-practise/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
@@ -303,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/mumukshapant/leetcode-practise/tree/master/0560-subarray-sum-equals-k) |
 | [0740-delete-and-earn](https://github.com/mumukshapant/leetcode-practise/tree/master/0740-delete-and-earn) |
 | [0817-design-hashmap](https://github.com/mumukshapant/leetcode-practise/tree/master/0817-design-hashmap) |
+| [1023-time-based-key-value-store](https://github.com/mumukshapant/leetcode-practise/tree/master/1023-time-based-key-value-store) |
 | [1533-display-table-of-food-orders-in-a-restaurant](https://github.com/mumukshapant/leetcode-practise/tree/master/1533-display-table-of-food-orders-in-a-restaurant) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/mumukshapant/leetcode-practise/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/mumukshapant/leetcode-practise/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
@@ -421,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/mumukshapant/leetcode-practise/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/mumukshapant/leetcode-practise/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/mumukshapant/leetcode-practise/tree/master/0907-koko-eating-bananas) |
+| [1023-time-based-key-value-store](https://github.com/mumukshapant/leetcode-practise/tree/master/1023-time-based-key-value-store) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/mumukshapant/leetcode-practise/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/mumukshapant/leetcode-practise/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/mumukshapant/leetcode-practise/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -488,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/mumukshapant/leetcode-practise/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/mumukshapant/leetcode-practise/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0817-design-hashmap](https://github.com/mumukshapant/leetcode-practise/tree/master/0817-design-hashmap) |
+| [1023-time-based-key-value-store](https://github.com/mumukshapant/leetcode-practise/tree/master/1023-time-based-key-value-store) |
 | [2413-smallest-number-in-infinite-set](https://github.com/mumukshapant/leetcode-practise/tree/master/2413-smallest-number-in-infinite-set) |
 ## Hash Function
 |  |
