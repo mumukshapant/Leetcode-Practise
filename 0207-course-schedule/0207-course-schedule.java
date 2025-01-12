@@ -1,43 +1,49 @@
 class Solution {
     public boolean canFinish(int n, int[][] pre) {
 
-        int[] indegree = new int[n];
-        Map<Integer, List<Integer>> neighbours = new HashMap<>();
-
+        // Form a graph
+        ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
         for (int i = 0; i < n; i++) {
-            neighbours.put(i, new ArrayList<>());
+            adj.add(new ArrayList<>());
         }
 
-        for (int[] p : pre) {
-            int course = p[0];
-            int prerequisite = p[1];
-            indegree[course]++;
-            neighbours.get(prerequisite).add(course);
+        for (int i = 0; i < pre.length; i++) {
+            adj.get(pre[i][0]).add(pre[i][1]);
         }
 
-         Queue<Integer> q = new LinkedList<>();
+        int indegree[] = new int[n];
+        for (int i = 0; i < n; i++) {
+            for (int it : adj.get(i)) {
+                indegree[it]++;
+            }
+        }
+
+
+        Queue<Integer> q = new LinkedList<Integer>();
         for (int i = 0; i < n; i++) {
             if (indegree[i] == 0) {
-                q.offer(i);
+                q.add(i);
             }
         }
 
-        int exploredNodes = 0;
-        
-        // Perform BFS
+
+        int topo[] = new int[n];
+        int ind = 0;
+        // o(v + e)
         while (!q.isEmpty()) {
-            int currNode = q.poll();
-            exploredNodes++;
-            
-            for (int neighbour : neighbours.get(currNode)) {
-                indegree[neighbour]--;
-                if (indegree[neighbour] == 0) {
-                    q.offer(neighbour);
-                }
+            int node = q.peek();
+
+            q.remove();
+            topo[ind++] = node;
+            // node is in your topo sort
+            // so please remove it from the indegree
+
+            for (int it : adj.get(node)) {
+                indegree[it]--;
+                if (indegree[it] == 0) q.add(it);
             }
         }
-        
-        return exploredNodes == n;
+    return ind==n;
         
     }
 }
