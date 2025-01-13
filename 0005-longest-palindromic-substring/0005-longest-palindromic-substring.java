@@ -1,50 +1,72 @@
 class Solution {
     public String longestPalindrome(String s) {
+
+        // there are 2 cases - even and odd length 
+        // if the palindrom is odd : babab , we chose a middle char b and move left and right if mid==i , we compare i-1, i+1 then i-2 and i+2 and so on
+        // for even  baab we have i at say 1 and compare it with pointer at 2 
+
+        // the only difference between both cases is how low and high is handled.
+
+        int n= s.length(); 
+        if(n <=1 )
+            return s; 
         
-    int n= s.length();
-    boolean[][] dp= new boolean[n][n];
-    int maxLen=1;
-    int start=0;
+        String lps=""; 
+        
 
-    //length 1 is always a palindrome
-    for(int i=0;i<n;i++){
-      dp[i][i]=true;
-      maxLen=1;
-      start =i;
-    }
+        //odd 
+        for(int i=1;i<n;i++ ){
+            int low=i, high=i; 
+            while(s.charAt(low)==s.charAt(high))
+            {
+                low--; 
+                high++; 
+            
+                if(low==-1 || high== n)
+                    break; 
+            }
 
-    //length 2
-    for(int i=0;i<n-1; i++){
-      if(s.charAt(i)==s.charAt(i+1)){
-        maxLen=2;
-        start=i;
-        dp[i][i+1]=true;
-      }
-    }
-
-
-    //length =3; 2 loops
-    for(int k =3; k<=n;k++){
-      for(int i= 0;i<n-k+1;i++ ){
-        int j= i+k-1;
-
-
-        if(dp[i+1][j-1] && s.charAt(i)==s.charAt(j))
-        {
-          dp[i][j]=true;
-          if(maxLen<k) {
-            maxLen = k;
-            start=i;
-          }
+            String res= s.substring(low+1, high);
+            if(res.length()> lps.length())
+                lps=res; 
+            
         }
-      }
+
+        //even 
+        for(int i=1;i<n;i++){
+            int low=i-1; 
+            int high= i; 
+
+            while(s.charAt(low)==s.charAt(high))
+            {
+                low--; 
+                high++; 
+                if(low==-1 || high==n)
+                    break; 
+                
+            }
+
+            String res= s.substring(low+1 , high); 
+
+            if(res.length()>lps.length())
+                lps=res; 
+        }
+
+        return lps; 
+
+
 
     }
-
-
-
-
-
- return s.substring(start, start + maxLen);    
- }
 }
+
+/**
+ * The difference between LPSubstring and subsequence is ::
+ * 
+ * s = "forgeeksskeegfor"
+ * 
+ * LP Substring → Requires contiguous characters.
+ * Example: "geeksskeeg" is valid.
+ * 
+ * LP Subsequence → Allows non-contiguous characters.
+ * Example: "fgsskssgf" is valid.
+ */
