@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0456-132-pattern](https://github.com/mumukshapant/leetcode-practise/tree/master/0456-132-pattern) |
 | [0485-max-consecutive-ones](https://github.com/mumukshapant/leetcode-practise/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/mumukshapant/leetcode-practise/tree/master/0493-reverse-pairs) |
+| [0494-target-sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0494-target-sum) |
 | [0525-contiguous-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0525-contiguous-array) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0540-single-element-in-a-sorted-array) |
@@ -270,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/mumukshapant/leetcode-practise/tree/master/0435-non-overlapping-intervals) |
+| [0494-target-sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/mumukshapant/leetcode-practise/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/mumukshapant/leetcode-practise/tree/master/0647-palindromic-substrings) |
 | [0740-delete-and-earn](https://github.com/mumukshapant/leetcode-practise/tree/master/0740-delete-and-earn) |
@@ -655,6 +657,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/mumukshapant/leetcode-practise/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/mumukshapant/leetcode-practise/tree/master/0090-subsets-ii) |
 | [0257-binary-tree-paths](https://github.com/mumukshapant/leetcode-practise/tree/master/0257-binary-tree-paths) |
+| [0494-target-sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0494-target-sum) |
 ## Memoization
 |  |
 | ------- |
