@@ -5,6 +5,8 @@ class Solution {
         int[][] dp = new int[m][n]; 
 
         dp[0][0] = grid[0][0]; 
+
+       // dp=1 
         
         for(int i=1;i<m;i++)
             dp[i][0] = dp[i-1][0] +grid[i][0]; 
@@ -17,7 +19,7 @@ class Solution {
                 int up = dp[i-1][j]; 
                 int left= dp[i][j-1];
 
-                dp[i][j] += Math.min(up,left)  + grid[i][j];; 
+                dp[i][j] += Math.min(up,left)  + grid[i][j];
             }
         }
         return dp[m-1][n-1]; 
