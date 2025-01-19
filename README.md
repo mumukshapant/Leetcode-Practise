@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0883-car-fleet](https://github.com/mumukshapant/leetcode-practise/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/mumukshapant/leetcode-practise/tree/master/0907-koko-eating-bananas) |
 | [0948-sort-an-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0948-sort-an-array) |
+| [0967-minimum-falling-path-sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0967-minimum-falling-path-sum) |
 | [1014-k-closest-points-to-origin](https://github.com/mumukshapant/leetcode-practise/tree/master/1014-k-closest-points-to-origin) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/mumukshapant/leetcode-practise/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1127-last-stone-weight](https://github.com/mumukshapant/leetcode-practise/tree/master/1127-last-stone-weight) |
@@ -280,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/mumukshapant/leetcode-practise/tree/master/0647-palindromic-substrings) |
 | [0740-delete-and-earn](https://github.com/mumukshapant/leetcode-practise/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/mumukshapant/leetcode-practise/tree/master/0747-min-cost-climbing-stairs) |
+| [0967-minimum-falling-path-sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/mumukshapant/leetcode-practise/tree/master/1013-fibonacci-number) |
 | [1086-divisor-game](https://github.com/mumukshapant/leetcode-practise/tree/master/1086-divisor-game) |
 | [1236-n-th-tribonacci-number](https://github.com/mumukshapant/leetcode-practise/tree/master/1236-n-th-tribonacci-number) |
@@ -413,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0289-game-of-life](https://github.com/mumukshapant/leetcode-practise/tree/master/0289-game-of-life) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/mumukshapant/leetcode-practise/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0733-flood-fill](https://github.com/mumukshapant/leetcode-practise/tree/master/0733-flood-fill) |
+| [0967-minimum-falling-path-sum](https://github.com/mumukshapant/leetcode-practise/tree/master/0967-minimum-falling-path-sum) |
 | [3227-find-missing-and-repeated-values](https://github.com/mumukshapant/leetcode-practise/tree/master/3227-find-missing-and-repeated-values) |
 ## Binary Search
 |  |
