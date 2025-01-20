@@ -10,31 +10,40 @@
  */
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
+
         if(k==0)
             return head; 
 
         if(head==null)
             return head; 
+        
+        //calculate length of list. if k > n , do k mod
+        int len=1; 
+        ListNode curr= head;
 
-        ListNode temp = head; 
-        int len=1;
-        while(temp.next!=null)
-            {temp=temp.next; 
-            len++; }
-
-        temp.next=head; 
-         k = k % len; // because value of k can be greater 
- 
-
-        ListNode curr=head; 
-
-        for(int i=0;i<len-k;i++){
-            temp=temp.next;
+        while(curr.next!=null)
+        {
+            curr=curr.next; 
+            len++; 
         }
-        head=temp.next; 
-        temp.next=null;
 
-        return head; 
+        //create a cycle.. 
+        curr.next= head; 
+
+        if(k>len)
+            k=k%len; 
+
+        for(int i=0;i<len-k;i++) // loop will run 3 times
+            curr=curr.next; 
+
+        ListNode temp= curr.next; 
+
+        curr.next=null; 
+        
+
+      return temp;
+
+
         
     }
 }
