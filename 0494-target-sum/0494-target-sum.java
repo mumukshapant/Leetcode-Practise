@@ -1,23 +1,25 @@
 class Solution {
+    int count = 0;
+
     public int findTargetSumWays(int[] nums, int t) {
-        int n= nums.length; 
-        int[][] dp =new int[n][n]; 
+        int n = nums.length;
 
-        return helper(nums, t, 0, 0); 
-
-
-        
+        helper(nums, t, 0, 0);
+        return count;
     }
-    private int helper(int[]nums, int t, int currsum, int i){
-        int add=0, sub=0; 
 
-        if(i==nums.length)
-            return currsum==t? 1 : 0 ; 
+    private void helper(int[] nums, int t, int currsum, int i) {
+        
 
-        add= helper(nums, t, currsum+nums[i], i+1); 
-        sub= helper(nums, t,  currsum-nums[i], i+1); 
-
-        return add+sub; 
+        if (i == nums.length) {
+            if (t == currsum)
+                count += 1;
+        } 
+        
+        else {
+            helper(nums, t, currsum + nums[i], i + 1);
+            helper(nums, t, currsum - nums[i], i + 1);
+        }
 
     }
 }
