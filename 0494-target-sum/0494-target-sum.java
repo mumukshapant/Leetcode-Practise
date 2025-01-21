@@ -1,31 +1,23 @@
 class Solution {
     public int findTargetSumWays(int[] nums, int t) {
-        // sum, number of ways
-        Map<Integer, Integer> dp = new HashMap<>(); 
+        int n= nums.length; 
+        int[][] dp =new int[n][n]; 
+
+        return helper(nums, t, 0, 0); 
+
+
         
-       dp.put(0,1); // dp[0] = 1 
+    }
+    private int helper(int[]nums, int t, int currsum, int i){
+        int add=0, sub=0; 
 
-       for(int n:nums){
-        Map<Integer, Integer> nextdp = new HashMap<>(); 
+        if(i==nums.length)
+            return currsum==t? 1 : 0 ; 
 
-            for(int sum:dp.keySet()){
+        add= helper(nums, t, currsum+nums[i], i+1); 
+        sub= helper(nums, t,  currsum-nums[i], i+1); 
 
-                int no_of_ways =dp.get(sum); 
+        return add+sub; 
 
-                //add current number to the sum
-                nextdp.put(sum + n , nextdp.getOrDefault(sum +n , 0)+ no_of_ways );
-
-                //subtract current number from the sum
-                nextdp.put(sum - n , nextdp.getOrDefault(sum - n , 0)+ no_of_ways );
-
-            }
-
-            dp=nextdp; 
-
-
-       }
-
-       return dp.getOrDefault(t , 0 ) ; 
-        
     }
 }
