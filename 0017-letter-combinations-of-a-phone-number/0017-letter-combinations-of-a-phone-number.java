@@ -1,26 +1,44 @@
 class Solution {
     public List<String> letterCombinations(String s) {
-        
-        LinkedList<String> res= new LinkedList<>(); 
-        if(s.length()==0)
-            return res; 
+        List<String> res = new ArrayList<>();
 
-        res.add(""); // length =0 
+        if (s.isEmpty())
+            return res;
 
-        String[] map = new String[] { "0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz" };
-        
-        for(int i=0;i<s.length(); i++){
-            int index= Character.getNumericValue(s.charAt(i));  // s="23"   then index= 2
+        StringBuilder curr = new StringBuilder();
 
-            while(res.peek().length()==i){
-                String t= res.remove(); 
+        helper(s, 0, curr, res);
+        return res;
 
-                for(char c: map[index].toCharArray())
-                    res.add(t+c); 
-                
-            } 
+    }
+
+    private void helper(String s, int index, StringBuilder curr, List<String> res) {
+        // base case
+        if (index == s.length()) {
+            res.add(curr.toString());
+            return ;
         }
 
-        return res; 
+        Map<Character, String> map = new HashMap<>();
+        map.put('2', "abc");
+        map.put('3', "def");
+        map.put('4', "ghi");
+        map.put('5', "jkl");
+        map.put('6', "mno");
+        map.put('7', "pqrs");
+        map.put('8', "tuv");
+        map.put('9', "wxyz");
+
+        String mapping = map.get(s.charAt(index)); // 'abc'
+        
+        for (int i = 0; i < mapping.length(); i++) {
+
+            // iterate mapping values
+
+            curr.append(mapping.charAt(i));
+            helper(s, index + 1, curr, res);
+            curr.deleteCharAt(curr.length() - 1);
+        }
     }
+
 }
