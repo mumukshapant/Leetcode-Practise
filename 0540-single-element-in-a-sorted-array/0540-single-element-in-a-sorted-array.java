@@ -1,16 +1,39 @@
 class Solution {
     public int singleNonDuplicate(int[] nums) {
         int n= nums.length; 
-        Map<Integer, Integer> map = new HashMap<>();
+        int low=1, high= n-2; 
 
-        //brute 
-        for(int i=0;i<n; i++){
-           map.put(nums[i], map.getOrDefault(nums[i], 0)+1); 
+        if(nums.length==0)
+            return -1; 
+
+
+        if(nums.length==1)
+            return nums[0];
+
+        if(nums[0]!=nums[1])
+            return nums[0];
+
+        if(nums[n-2]!=nums[n-1])
+            return nums[n-1];
+
+
+        
+        while(low<=high){
+            int mid= low+(high-low)/2; 
+            
+            //case 1 - even index 
+            if(mid%2 ==0 && nums[mid]==nums[mid-1])
+                high= mid-1; 
+            else if(mid%2==0 && nums[mid]==nums[mid+1])
+                low=mid+1; 
+            else if(mid%2!=0 && nums[mid]==nums[mid-1])
+                low=mid+1; 
+            else 
+                high = mid-1; 
+
+
         }
-
-        for(Map.Entry <Integer, Integer> e : map.entrySet())
-            if(e.getValue()==1)
-                return e.getKey(); 
-        return -1; 
+        return nums[low]; 
+        
     }
 }
