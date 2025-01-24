@@ -1,19 +1,12 @@
 class Solution {
     public int getSum(int a, int b) {
-    
-while(b!=0)
-{
-    int sum= a^ b ;  // sum without carry 
-    int carry = (a&b)<< 1 ; // carry is a&b then left shift it( WHY coz carry is added on the next left digit ) 
 
-    // keep adding ( sum+carry) till carry becomes 0; 
+        if (b == 0)
+            return a;
 
+        int sum = a ^ b; // xor
+        int carry = (a & b) << 1;
 
-    a= sum; 
-    b= carry; 
-    }
-    return a; 
-
-
+        return getSum(sum, carry); 
     }
 }
