@@ -1,33 +1,32 @@
 class Solution {
-    public int findCircleNum(int[][] isConnected) {
+    public int findCircleNum(int[][] mat) {
+        int n= mat.length; 
+        int count=0; 
 
-        int n = isConnected.length;
-        boolean[] visited= new boolean[n]; 
-        int count = 0;
+        boolean[] vis = new boolean[n]; 
 
-        // agar koi node visited NAHI hai, that means count++. kyuki DFS is not able to
-        // reach there & it is another province.
+        for(int i=0;i<n;i++){
 
-        for (int i = 0; i < n; i++) {
-
-                    if (!visited[i]) {
-                        count++;
-                        dfs(isConnected, i, visited);
-
-                    }                
+            if(vis[i]==false){
+                count++; 
+                dfs(mat, i, vis); 
             }
 
-        return count;
-
+        }
+        return count; 
+        
     }
+    private void dfs(int[][] mat, int node, boolean[] vis){
 
-    private void dfs(int[][] isConnected, int node, boolean[] visited) {
+        int n= mat.length; 
 
-        int n = isConnected.length;
-        for(int i=0;i<n;i++){
-            if(isConnected[node][i]==1 && !visited[i]){
-                visited[i]=true; 
-                dfs(isConnected, i, visited);
+        for(int i=0;i<n; i++){
+            if(mat[node][i] ==1  && vis[i] ==false)
+            {
+                vis[i]=true; 
+
+                dfs(mat, i, vis); 
+
 
             }
         }
