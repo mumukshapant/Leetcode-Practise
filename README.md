@@ -383,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/mumukshapant/leetcode-practise/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0451-sort-characters-by-frequency](https://github.com/mumukshapant/leetcode-practise/tree/master/0451-sort-characters-by-frequency) |
 | [0658-find-k-closest-elements](https://github.com/mumukshapant/leetcode-practise/tree/master/0658-find-k-closest-elements) |
+| [0744-network-delay-time](https://github.com/mumukshapant/leetcode-practise/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/mumukshapant/leetcode-practise/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/mumukshapant/leetcode-practise/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/mumukshapant/leetcode-practise/tree/master/1014-k-closest-points-to-origin) |
@@ -558,6 +559,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0637-average-of-levels-in-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0684-redundant-connection](https://github.com/mumukshapant/leetcode-practise/tree/master/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/mumukshapant/leetcode-practise/tree/master/0733-flood-fill) |
+| [0744-network-delay-time](https://github.com/mumukshapant/leetcode-practise/tree/master/0744-network-delay-time) |
 | [0775-n-ary-tree-preorder-traversal](https://github.com/mumukshapant/leetcode-practise/tree/master/0775-n-ary-tree-preorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/mumukshapant/leetcode-practise/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0871-keys-and-rooms](https://github.com/mumukshapant/leetcode-practise/tree/master/0871-keys-and-rooms) |
@@ -583,6 +585,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0637-average-of-levels-in-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0684-redundant-connection](https://github.com/mumukshapant/leetcode-practise/tree/master/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/mumukshapant/leetcode-practise/tree/master/0733-flood-fill) |
+| [0744-network-delay-time](https://github.com/mumukshapant/leetcode-practise/tree/master/0744-network-delay-time) |
 | [0871-keys-and-rooms](https://github.com/mumukshapant/leetcode-practise/tree/master/0871-keys-and-rooms) |
 | [1036-rotting-oranges](https://github.com/mumukshapant/leetcode-practise/tree/master/1036-rotting-oranges) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/mumukshapant/leetcode-practise/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -677,6 +680,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/mumukshapant/leetcode-practise/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0547-number-of-provinces](https://github.com/mumukshapant/leetcode-practise/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/mumukshapant/leetcode-practise/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/mumukshapant/leetcode-practise/tree/master/0744-network-delay-time) |
 | [0871-keys-and-rooms](https://github.com/mumukshapant/leetcode-practise/tree/master/0871-keys-and-rooms) |
 | [1916-find-center-of-star-graph](https://github.com/mumukshapant/leetcode-practise/tree/master/1916-find-center-of-star-graph) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mumukshapant/leetcode-practise/tree/master/2121-find-if-path-exists-in-graph) |
@@ -817,4 +821,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/mumukshapant/leetcode-practise/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/mumukshapant/leetcode-practise/tree/master/0210-course-schedule-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/mumukshapant/leetcode-practise/tree/master/0329-longest-increasing-path-in-a-matrix) |
+## Shortest Path
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/mumukshapant/leetcode-practise/tree/master/0744-network-delay-time) |
 <!---LeetCode Topics End-->
