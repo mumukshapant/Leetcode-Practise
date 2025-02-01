@@ -34,6 +34,8 @@ class Solution {
             int currnode= curr[0]; 
             int currwt= curr[1]; 
 
+            //visit it's neighbors 
+
             for(int next: map.getOrDefault(currnode, new HashMap<>()).keySet() )
             {
                 int nextwt= map.get(currnode).get(next);
@@ -48,14 +50,20 @@ class Solution {
 
         // STEP 4: 
         int res=0; 
-        
+
         for(int i=1; i<=n ;i ++){
             if(dist[i]> res)
                 res= Math.max(res, dist[i]); 
         }
+       
 
         return res == Integer.MAX_VALUE ? -1 : res;
 
         
     }
 }
+
+// use test case 
+// [[1,3,1],[1,4,3],[3,2,2],[3,4,1],[4,2,4]]
+// n= 4, k= 1 
+//https://www.youtube.com/watch?v=n551TcPWSH8&t=603s
