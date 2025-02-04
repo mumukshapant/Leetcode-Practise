@@ -825,4 +825,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/mumukshapant/leetcode-practise/tree/master/0744-network-delay-time) |
+## Database
+|  |
+| ------- |
+| [0577-employee-bonus](https://github.com/mumukshapant/leetcode-practise/tree/master/0577-employee-bonus) |
 <!---LeetCode Topics End-->
