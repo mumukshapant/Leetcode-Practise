@@ -1,48 +1,41 @@
 class Solution {
-    int count;
+    
     public int numIslands(char[][] g) {
-
         int m= g.length; 
         int n= g[0].length; 
-        count = 0; 
+        int count=0; 
+       
+       
 
-        for(int i=0;i<m; i++){
-            for(int j=0;j<n;j++)
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n; j++){
                 if(g[i][j]=='1')
-                {
-                    helper(g, i, j); 
-                    count++; 
-                }
-                    
+              { dfs(g, i, j); 
+               count++; }
+            }
         }
-
         return count; 
         
     }
 
-    // this helper function is used for exploring the island -- not counting it.. 
-    
-    private int helper(char[][]g, int r, int c )
-    {
+    private int[][] directions = new int[][] { { -1, 0 }, { 1, 0 }, { 0, 1 }, { 0, -1 } };
 
-        int m= g.length; 
-        int n= g[0].length; 
+    private void dfs(char[][] g, int r, int c) {
+        int m = g.length;
+        int n = g[0].length;
 
-        // conditions...dfs will run only on land
-        if(r<0 || c<0 || r>=m || c>=n || g[r][c]!='1' ) 
-            return 0; 
-        
-        // mark visited 
-        g[r][c] = '2'; 
+        if (r >= m || c >= n || r < 0 || c < 0 || g[r][c] != '1')
+            return;
 
-        for(int[] d: directions){
-            int newrow= d[0]+r; 
-            int newcol= d[1]+c; 
+        g[r][c]=2; //mark visited
 
-            helper(g, newrow, newcol);
+        for (int[] d : directions) {
+            int newrow = r + d[0];
+            int newcol = c + d[1];
+
+            dfs(g, newrow, newcol);
+         
         }
-        return count ;
-        
+     
     }
-    int[][] directions= new int[][]{{-1,0}, {1,0},{0,1}, {0,-1}};
 }
