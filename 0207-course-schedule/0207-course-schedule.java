@@ -1,64 +1,56 @@
 class Solution {
     public boolean canFinish(int n, int[][] prereq) {
 
-        List<List<Integer>> adj= new ArrayList<>(); 
 
-        for(int i=0;i<n ; i++)
-        {
-            adj.add(new ArrayList<>()); 
+        ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            adj.add(new ArrayList<>());
         }
-        for(int[] p : prereq){
-            int course= p[0]; // course
-            int prerequisite= p[1]; 
+        
+        for(int[] p: prereq){
 
-            adj.get(course).add(prerequisite); 
+            int course= p[0];  //1
+            int pre = p[1]; // 0 
+            adj.get(course).add(pre); 
         }
+        int[] indegree= new int[n]; //for prerequisite
 
-        System.out.println("adjacency list"); 
-        for(int i=0;i<n; i++)
-            System.out.println(i+": "+adj.get(i)+" "); 
-
-        int[] indegree= new int[n]; 
-
-
-        //given : courses - labeled from 0 to numCourses - 1.
-
-        for(int i=0;i<n ; i++){
+        for(int i=0;i<n; i++){
             for(int j: adj.get(i)){
                 indegree[j]++; 
 
-            }
+            } 
         }
-          System.out.println("\n"); 
-
-          System.out.println("Initial Indegree array"); 
-        for(int i=0;i<n; i++)
-            System.out.print(indegree[i]+" "); 
 
 
-        //topological sort starts..
-        Queue<Integer> q= new LinkedList<>(); 
-        for(int i=0;i<n; i++){
-            if(indegree[i]==0)
+        Queue<Integer> q= new LinkedList<>(); //stores prerequisties
+        for(int i=0;i<n ; i++){
+            if(indegree[i]==0)//means no prerequisite
                 q.add(i); 
         }
 
+        int index=0; 
         int[] topo = new int[n]; 
-        int ind=0; 
 
+         
         while(!q.isEmpty()){
-            int node= q.poll(); // [2] 
-            topo[ind++]= node; 
 
-            for(int j: adj.get(node)){
+            int node= q.poll(); // [ 0 ]
+            topo[index++ ]= node; 
+
+            for(int j: adj.get(node)){ //prerequisite
                 indegree[j]--; 
-
                 if(indegree[j]==0)
                     q.add(j); 
+
+
+
             }
+
         }
 
-        return ind==n; 
+        return index==n; 
+
         
     }
 }
