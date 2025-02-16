@@ -1,56 +1,69 @@
 class Solution {
-    public boolean canFinish(int n, int[][] prereq) {
+    public boolean canFinish(int n, int[][] prerequisites) {
 
+        // course , pre 
 
         ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            adj.add(new ArrayList<>());
-        }
         
-        for(int[] p: prereq){
+        for(int i=0;i<n; i++)
+            adj.add(new ArrayList<>() ); 
 
-            int course= p[0];  //1
-            int pre = p[1]; // 0 
+        int[] indegree = new int[n]; 
+
+        for(int[] p: prerequisites){
+            int course= p[0]; 
+            int pre = p[1];
             adj.get(course).add(pre); 
         }
-        int[] indegree= new int[n]; //for prerequisite
+        //indegree will contains only prerequisite
 
-        for(int i=0;i<n; i++){
-            for(int j: adj.get(i)){
+
+        // indegree [0] = 1
+        // indegree[1] = 0 
+        
+        for(int i=0;i<n;i++){
+            for(int j: adj.get(i))
                 indegree[j]++; 
-
-            } 
+            
         }
-
-
-        Queue<Integer> q= new LinkedList<>(); //stores prerequisties
+        
+        Queue<Integer> q = new LinkedList<>(); //stores pre 
+        
         for(int i=0;i<n ; i++){
-            if(indegree[i]==0)//means no prerequisite
+            if(indegree[i]==0) //no prereq
+            {
                 q.add(i); 
+            }
         }
-
-        int index=0; 
         int[] topo = new int[n]; 
+        int index=0; 
 
-         
+
         while(!q.isEmpty()){
+            
+            int node = q.poll();   //      [ 0 ]
+            topo[index ++] = node; 
 
-            int node= q.poll(); // [ 0 ]
-            topo[index++ ]= node; 
-
-            for(int j: adj.get(node)){ //prerequisite
+            for(int j: adj.get(node)){
                 indegree[j]--; 
+                
                 if(indegree[j]==0)
                     q.add(j); 
-
-
-
             }
 
         }
+        
 
-        return index==n; 
+        /**
+                course. Pre
+        // adj : [ 1 -> 0  ]
+                 [ 0 -> 1  ]
 
+
+
+
+         */
+         return index==n; 
         
     }
 }
