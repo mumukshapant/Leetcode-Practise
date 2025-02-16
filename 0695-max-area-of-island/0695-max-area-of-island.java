@@ -1,44 +1,45 @@
 class Solution {
-   
+    int area=1; 
     public int maxAreaOfIsland(int[][] g) {
-
         int m= g.length; 
         int n= g[0].length; 
+        int maxarea=0; 
 
-        int res=0; 
-       
-
-        for(int i=0;i<m;i++){
-            for(int j=0;j<n; j++){
-                res= Math.max(dfs(g, i, j), res); 
+        for(int i=0;i<m; i++){
+            for(int j=0;j<n;j++){
+                 maxarea=Math.max( dfs(g, i, j), maxarea); 
             }
         }
-        return res ; 
+       
+        return maxarea; 
+
+
         
     }
-      private int[][] directions = new int[][] { { -1, 0 }, { 1, 0 }, { 0, 1 }, { 0, -1 } };
+    private int[][] directions=new int[][]{{-1,0},{0,1},{0,-1},{1,0}}; 
+    
+    private int dfs(int[][]g, int i, int j){
+        int m= g.length; 
+        int n= g[0].length; 
+       // int[][] vis= new int[m][n];
+       int area=1; 
 
-    private int dfs(int[][] g, int r, int c) {
-        int m = g.length;
-        int n = g[0].length;
-        int area=1; 
+        if( i>=m || j>=n || i<0 || j<0 || g[i][j] !=1 )
+            return 0 ; 
         
+         g[i][j]=2; 
 
-        if (r >= m || c >= n || r < 0 || c < 0 || g[r][c] != 1)
-            return 0 ;
+        for(int[] d: directions){
+            
+            int newrow= d[0] + i; 
+            int newcol= d[1] + j; 
 
-        
+            
+           area+= dfs(g, newrow, newcol);
 
-        g[r][c]=2; //mark visited
-
-        for (int[] d : directions) {
-            int newrow = r + d[0];
-            int newcol = c + d[1];
-
-            area+=dfs(g, newrow, newcol);
-         
         }
         return area; 
+
+
     }
-     
 }
