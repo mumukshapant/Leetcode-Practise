@@ -9,40 +9,52 @@
  * }
  */
 class Solution {
-    public ListNode removeNthFromEnd(ListNode head, int n) {
-        
-        if(head==null)
-            return null; 
-
-        
-        //len of list 
-
-        int len=0; 
-        ListNode curr=head; 
+    public ListNode removeNthFromEnd(ListNode head, int k) {
+        ListNode curr = head; 
+        int n=0; //length of the list
         while(curr!=null){
-        curr=curr.next; 
-        len++; 
-        }
-
-        int k=len-n; 
-        
-        int i=1; 
-
-        curr=head; 
-        if(k==0)
-            return head.next;
-
-        while(i!=k){
             curr=curr.next; 
-            i++; 
+            n++; 
+        }
+        curr=head; 
+        
+      
+        
+        if(k==0)
+            return head;
+
+        else if(k==n) // head needs to be removed
+        {
+            head=head.next;
+            return head;
         }
 
-        if(curr.next!=null)
+       else if(k==1) //. Last element needs to be remobed 
+        {
+            while (curr.next.next!=null){
+                curr=curr.next; 
+            }
+            curr.next=null;
+            return head; 
+        }
+
+        else{
+            int pos= n-k; //from beginning 
+            curr=head; 
+            while(pos>1){
+                curr=curr.next; 
+                pos--; 
+            }
             curr.next=curr.next.next; 
+           // return head; 
+        }
 
-        
+    
 
-    return head; 
-        
+
+   return head;
+
+
+
     }
 }
