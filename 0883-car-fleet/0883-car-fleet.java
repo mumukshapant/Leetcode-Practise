@@ -1,26 +1,39 @@
 class Solution {
-    public int carFleet(int target, int[] position, int[] speed) {
-        if(position.length == 1) 
+    public int carFleet(int t, int[] pos, int[] sp) {
+        int n= pos.length; 
+        if(n == 1) 
         return 1;
-        int[][] cars= new int[position.length][2];
 
-        for(int i=0;i<position.length; i++){
-            cars[i][0]=position[i]; 
-            cars[i][1]=speed[i]; 
+        int[][] curr= new int[n][2];
+        for(int i=0;i<curr.length; i++){
+            curr[i][0]= pos[i]; 
+            curr[i][1]= sp[i]; 
         }
-        Arrays.sort(cars, (a,b)->Integer.compare(b[0],a[0])); //descending order 
-        
+
+        Arrays.sort(curr, (a,b) -> Integer.compare(b[0],a[0]) ); //desc order b,a
+
         Stack<Double> st= new Stack<>();
 
-        for(int i=0;i<cars.length;i++){
-            double time= (double)(target-cars[i][0])/cars[i][1]; 
+
+        for(int i=0;i<curr.length; i++){
+            double time = (double) (t-curr[i][0])    /     curr[i][1] ;
+            // this is the only correct way, rest all are not correct. 
+            // (t-curr[i][0])  is converted to double, ie , say 6.0 
+            // then 6.0 is divided by curr[i][1]
+
+
 
             if(st.isEmpty())
                 st.push(time); 
             
-            else if(time > st.peek())
-                st.push(time); 
-        }
+            else if (time > st.peek() )
+                st.push(time);
+            
+
+        } 
         return st.size(); 
+
+
+        
     }
 }
