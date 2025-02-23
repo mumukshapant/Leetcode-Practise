@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/mumukshapant/leetcode-practise/tree/master/0695-max-area-of-island) |
 | [0724-find-pivot-index](https://github.com/mumukshapant/leetcode-practise/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/mumukshapant/leetcode-practise/tree/master/0733-flood-fill) |
+| [0739-daily-temperatures](https://github.com/mumukshapant/leetcode-practise/tree/master/0739-daily-temperatures) |
 | [0740-delete-and-earn](https://github.com/mumukshapant/leetcode-practise/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/mumukshapant/leetcode-practise/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/mumukshapant/leetcode-practise/tree/master/0792-binary-search) |
@@ -750,6 +751,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/mumukshapant/leetcode-practise/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0234-palindrome-linked-list](https://github.com/mumukshapant/leetcode-practise/tree/master/0234-palindrome-linked-list) |
 | [0456-132-pattern](https://github.com/mumukshapant/leetcode-practise/tree/master/0456-132-pattern) |
+| [0739-daily-temperatures](https://github.com/mumukshapant/leetcode-practise/tree/master/0739-daily-temperatures) |
 | [0775-n-ary-tree-preorder-traversal](https://github.com/mumukshapant/leetcode-practise/tree/master/0775-n-ary-tree-preorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/mumukshapant/leetcode-practise/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0883-car-fleet](https://github.com/mumukshapant/leetcode-practise/tree/master/0883-car-fleet) |
@@ -782,6 +784,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/mumukshapant/leetcode-practise/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/mumukshapant/leetcode-practise/tree/master/0084-largest-rectangle-in-histogram) |
 | [0456-132-pattern](https://github.com/mumukshapant/leetcode-practise/tree/master/0456-132-pattern) |
+| [0739-daily-temperatures](https://github.com/mumukshapant/leetcode-practise/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/mumukshapant/leetcode-practise/tree/master/0883-car-fleet) |
 | [2573-remove-nodes-from-linked-list](https://github.com/mumukshapant/leetcode-practise/tree/master/2573-remove-nodes-from-linked-list) |
 ## Geometry
