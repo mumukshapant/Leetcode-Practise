@@ -215,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0223-rectangle-area](https://github.com/mumukshapant/leetcode-practise/tree/master/0223-rectangle-area) |
 | [0258-add-digits](https://github.com/mumukshapant/leetcode-practise/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/mumukshapant/leetcode-practise/tree/master/0268-missing-number) |
+| [0319-bulb-switcher](https://github.com/mumukshapant/leetcode-practise/tree/master/0319-bulb-switcher) |
 | [0371-sum-of-two-integers](https://github.com/mumukshapant/leetcode-practise/tree/master/0371-sum-of-two-integers) |
 | [0412-fizz-buzz](https://github.com/mumukshapant/leetcode-practise/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/mumukshapant/leetcode-practise/tree/master/0415-add-strings) |
@@ -822,6 +823,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Brainteaser
 |  |
 | ------- |
+| [0319-bulb-switcher](https://github.com/mumukshapant/leetcode-practise/tree/master/0319-bulb-switcher) |
 | [1086-divisor-game](https://github.com/mumukshapant/leetcode-practise/tree/master/1086-divisor-game) |
 ## Game Theory
 |  |
