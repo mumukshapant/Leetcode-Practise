@@ -4,14 +4,14 @@ class Solution(object):
         :type x: int
         :rtype: bool
         """
-        og=x
-        if x < 0:
-            return False  # Negative numbers are not palindromes
-        rev=0
+    # O(log n )-- reversing half the number
 
-        while x: 
-            x, mod= divmod(x, 10)
-            rev= rev*10+ mod
-
-        return rev==og
+        if x<0 or (x % 10 == 0 and x != 0): 
+            return False
         
+        rev=0
+        while x> rev: 
+            rem=x%10
+            rev= rev*10 + rem
+            x=x//10
+        return x==rev or x==rev//10        
