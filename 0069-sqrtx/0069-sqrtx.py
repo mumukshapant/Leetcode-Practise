@@ -8,7 +8,7 @@ class Solution(object):
         if x < 2:
             return x
         low=0
-        high= x
+        high= x/2
         
         while low<=high: 
             mid= low+(high-low)//2
