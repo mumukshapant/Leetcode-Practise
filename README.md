@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/mumukshapant/leetcode-practise/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2502-sort-the-people](https://github.com/mumukshapant/leetcode-practise/tree/master/2502-sort-the-people) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/mumukshapant/leetcode-practise/tree/master/2553-total-cost-to-hire-k-workers) |
+| [2654-count-the-number-of-vowel-strings-in-range](https://github.com/mumukshapant/leetcode-practise/tree/master/2654-count-the-number-of-vowel-strings-in-range) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/mumukshapant/leetcode-practise/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3081-minimum-array-length-after-pair-removals](https://github.com/mumukshapant/leetcode-practise/tree/master/3081-minimum-array-length-after-pair-removals) |
 | [3206-find-common-elements-between-two-arrays](https://github.com/mumukshapant/leetcode-practise/tree/master/3206-find-common-elements-between-two-arrays) |
@@ -278,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2032-largest-odd-number-in-string](https://github.com/mumukshapant/leetcode-practise/tree/master/2032-largest-odd-number-in-string) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/mumukshapant/leetcode-practise/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2502-sort-the-people](https://github.com/mumukshapant/leetcode-practise/tree/master/2502-sort-the-people) |
+| [2654-count-the-number-of-vowel-strings-in-range](https://github.com/mumukshapant/leetcode-practise/tree/master/2654-count-the-number-of-vowel-strings-in-range) |
 | [3426-minimum-number-of-chairs-in-a-waiting-room](https://github.com/mumukshapant/leetcode-practise/tree/master/3426-minimum-number-of-chairs-in-a-waiting-room) |
 ## Dynamic Programming
 |  |
@@ -373,6 +375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/mumukshapant/leetcode-practise/tree/master/0451-sort-characters-by-frequency) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/mumukshapant/leetcode-practise/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/mumukshapant/leetcode-practise/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
+| [2654-count-the-number-of-vowel-strings-in-range](https://github.com/mumukshapant/leetcode-practise/tree/master/2654-count-the-number-of-vowel-strings-in-range) |
 | [3081-minimum-array-length-after-pair-removals](https://github.com/mumukshapant/leetcode-practise/tree/master/3081-minimum-array-length-after-pair-removals) |
 ## Enumeration
 |  |
