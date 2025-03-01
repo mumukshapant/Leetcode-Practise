@@ -9,5 +9,5 @@ class Solution(object):
         t= s.split()
         
 
-        return map(strs.find, strs)== map(t.index, t )
+        return map(strs.index, strs)== map(t.index, t )
         
