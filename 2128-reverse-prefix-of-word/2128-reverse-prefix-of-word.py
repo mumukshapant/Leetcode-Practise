@@ -1,12 +1,14 @@
 class Solution(object):
-    def reversePrefix(self, word, ch):
+    def reversePrefix(self, s, ch):
         """
         :type word: str
         :type ch: str
         :rtype: str
         """
-        index= word.find(ch)
         
-
-        reversed_prefix= word[:index+1][::-1] + word[index+1:]
-        return reversed_prefix
+        index = s.find(ch)
+       
+        rev= s[:index+1][::-1]+s[index+1:]
+        print(rev)
+        return rev
+        
