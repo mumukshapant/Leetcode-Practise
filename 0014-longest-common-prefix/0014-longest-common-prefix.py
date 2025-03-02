@@ -4,18 +4,23 @@ class Solution(object):
         :type strs: List[str]
         :rtype: str
         """
+        prefix= strs[0] #dog
         
-        prefix = strs[0] # car
+        plen=len(prefix)
         
-        i=1
-        prefixlen= len(prefix) 
 
-        for i in range (1,len(strs)): 
-            word= strs[i]
-            while prefixlen > len(word) or prefix[:prefixlen] != word[:prefixlen]: 
-                prefixlen-=1
-                if prefixlen==0: 
+        for i in range (1, len(strs)): 
+            curr= strs[i] #racecar
+            while prefix[:plen] != curr[:plen] or plen> len(curr)  : 
+                plen -= 1
+                if plen==0 : 
                     return ""
-            prefix = prefix[:prefixlen]
+            prefix= prefix[:plen]
+            #print(prefix)
 
-        return prefix
+        return prefix  
+                
+
+
+
+        
