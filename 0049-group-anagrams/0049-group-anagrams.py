@@ -4,19 +4,13 @@ class Solution(object):
         :type strs: List[str]
         :rtype: List[List[str]]
         """
-        
-        d={}
-        for word in strs: 
-            sortedword= ''.join(sorted(word)) # sorts characters then joins it to create a string        # aet
-            if sortedword not in d: 
-                d[sortedword]= [word]
-            else: 
-                d[sortedword].append(word)
-        
-        list=[]
-        for values in d.values(): 
-            list.append(values)
-        return list
+        dict={}
+        for s in strs:  # s= eat 
+            sort= ''.join(sorted(s))
 
+            if sort in dict: 
+                dict[sort].append(s)
+            else : 
+                dict[sort]= [s] 
 
-      
+        return dict.values()
