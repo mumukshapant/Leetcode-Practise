@@ -167,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0874-backspace-string-compare](https://github.com/mumukshapant/leetcode-practise/tree/master/0874-backspace-string-compare) |
 | [0908-middle-of-the-linked-list](https://github.com/mumukshapant/leetcode-practise/tree/master/0908-middle-of-the-linked-list) |
 | [1894-merge-strings-alternately](https://github.com/mumukshapant/leetcode-practise/tree/master/1894-merge-strings-alternately) |
+| [2128-reverse-prefix-of-word](https://github.com/mumukshapant/leetcode-practise/tree/master/2128-reverse-prefix-of-word) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/mumukshapant/leetcode-practise/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/mumukshapant/leetcode-practise/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/mumukshapant/leetcode-practise/tree/master/2553-total-cost-to-hire-k-workers) |
@@ -291,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2032-largest-odd-number-in-string](https://github.com/mumukshapant/leetcode-practise/tree/master/2032-largest-odd-number-in-string) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/mumukshapant/leetcode-practise/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/mumukshapant/leetcode-practise/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
+| [2128-reverse-prefix-of-word](https://github.com/mumukshapant/leetcode-practise/tree/master/2128-reverse-prefix-of-word) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/mumukshapant/leetcode-practise/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2502-sort-the-people](https://github.com/mumukshapant/leetcode-practise/tree/master/2502-sort-the-people) |
 | [2654-count-the-number-of-vowel-strings-in-range](https://github.com/mumukshapant/leetcode-practise/tree/master/2654-count-the-number-of-vowel-strings-in-range) |
@@ -793,6 +795,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1078-remove-outermost-parentheses](https://github.com/mumukshapant/leetcode-practise/tree/master/1078-remove-outermost-parentheses) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/mumukshapant/leetcode-practise/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/mumukshapant/leetcode-practise/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [2128-reverse-prefix-of-word](https://github.com/mumukshapant/leetcode-practise/tree/master/2128-reverse-prefix-of-word) |
 | [2573-remove-nodes-from-linked-list](https://github.com/mumukshapant/leetcode-practise/tree/master/2573-remove-nodes-from-linked-list) |
 ## Ordered Set
 |  |
