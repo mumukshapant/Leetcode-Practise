@@ -6,7 +6,8 @@ class Solution(object):
         """
         dict={}
         for s in strs:  # s= eat 
-            sort= ''.join(sorted(s))
+           # sort= ''.join(sorted(s))
+            sort= tuple(sorted(s))
 
             if sort in dict: 
                 dict[sort].append(s)
